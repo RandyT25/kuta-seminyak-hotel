@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T01:21:49",
+  "generated_at": "2026-08-12T01:23:14",
   "months": [
     "January",
     "February",
@@ -19,9 +19,9 @@
     452835280.28571105,
     569007187.53725,
     506913149.23793304,
-    171814874.905217
+    199178380.21991497
   ],
-  "grand_total": 3357658943.6282144,
+  "grand_total": 3385022448.942912,
   "run_rate": 509585205.6869647,
   "monthly_target": 1000000000,
   "target_progress_pct": 50.958520568696464,
@@ -36,12 +36,12 @@
     626500000
   ],
   "current_month_target": 626500000,
-  "current_month_actual": 171814874.905217,
-  "current_month_progress_pct": 27.4245610383427,
+  "current_month_actual": 199178380.21991497,
+  "current_month_progress_pct": 31.79223946048124,
   "customer_count": 76,
   "product_count": 192,
-  "top5_pct_of_total": 62.8443354427506,
-  "top10_pct_of_total": 76.12363864368564,
+  "top5_pct_of_total": 63.006151007453006,
+  "top10_pct_of_total": 76.20786684901421,
   "customers": [
     {
       "name": "PADMA BALI RESORT",
@@ -53,12 +53,12 @@
         88924364.39998,
         187481726.60996997,
         101694638.39995,
-        18562030.2
+        31816985.29997
       ],
       "products": [
         {
           "name": "Tepung Stupa Emas 1Kg",
-          "category": "Other",
+          "category": "Bakery",
           "monthly": [
             41400.0,
             0.0,
@@ -73,7 +73,7 @@
         },
         {
           "name": "Tepung Double Zero @25Kg/Sack",
-          "category": "Flour Sriboga",
+          "category": "Bakery",
           "monthly": [
             30810811.2,
             24391892.2,
@@ -82,9 +82,9 @@
             33378378.8,
             30810811.2,
             46216216.8,
-            11554054.2
+            20540540.8
           ],
-          "total": 240067570.59999996
+          "total": 249054057.2
         },
         {
           "name": "Claw Crab Meat,1lb can",
@@ -127,9 +127,24 @@
             630630.59998,
             945945.89997,
             1576576.49995,
-            0.0
+            945945.89997
           ],
-          "total": 6306305.9998
+          "total": 7252251.89977
+        },
+        {
+          "name": "Tepung Ninja @25Kg/Sack",
+          "category": "Bakery",
+          "monthly": [
+            6689189.25,
+            4211711.75,
+            5698198.25,
+            11148648.75,
+            2477477.5,
+            7477477.6,
+            8828829.1,
+            2522522.6
+          ],
+          "total": 49054054.800000004
         },
         {
           "name": "Allana Tenderloin Whole",
@@ -145,21 +160,6 @@
             0.0
           ],
           "total": 309587852.5
-        },
-        {
-          "name": "Tepung Ninja @25Kg/Sack",
-          "category": "Flour Sriboga",
-          "monthly": [
-            6689189.25,
-            4211711.75,
-            5698198.25,
-            11148648.75,
-            2477477.5,
-            7477477.6,
-            8828829.1,
-            0.0
-          ],
-          "total": 46531532.2
         },
         {
           "name": "Double Happines Black Sesame Oil 320 Ml",
@@ -178,7 +178,7 @@
         },
         {
           "name": "Tepung Ninja Fusion Pao 1Kg",
-          "category": "Flour Sriboga",
+          "category": "Bakery",
           "monthly": [
             23000.0,
             0.0,
@@ -238,7 +238,7 @@
         },
         {
           "name": "Tepung Beruang Emas 1Kg/Pack - Sample",
-          "category": "Flour Sriboga",
+          "category": "Bakery",
           "monthly": [
             60000.0,
             0.0,
@@ -298,7 +298,7 @@
         },
         {
           "name": "Gold Box Extra Butter MP341 250gr - Sample",
-          "category": "Other",
+          "category": "Bakery",
           "monthly": [
             34000.0,
             0.0,
@@ -322,9 +322,9 @@
             800000.0,
             4000000.0,
             1600000.0,
-            0.0
+            800000.0
           ],
-          "total": 7200000.0
+          "total": 8000000.0
         },
         {
           "name": "Crr Rock'n Hash Brown Triangular 250 Gr - Sample",
@@ -357,9 +357,9 @@
           "total": 77500.0
         }
       ],
-      "total": 809269929.3098001,
+      "total": 822524884.4097701,
       "rank": 1,
-      "pct_of_total": 24.10220760644976,
+      "pct_of_total": 24.298949174373462,
       "product_count": 20,
       "status": "growing",
       "mom_pct": -45.8,
@@ -590,21 +590,6 @@
           "total": 522522.52
         },
         {
-          "name": "Pristine Classic Cooking Cream 1 Lt",
-          "category": "Dairy",
-          "monthly": [
-            7036036.1,
-            0.0,
-            0.0,
-            1486486.5,
-            7977477.55,
-            13180180.3,
-            14914414.55,
-            0.0
-          ],
-          "total": 44594595.0
-        },
-        {
           "name": "Bergold Mozzarella Block",
           "category": "Dairy",
           "monthly": [
@@ -618,6 +603,21 @@
             0.0
           ],
           "total": 48431364.21243901
+        },
+        {
+          "name": "Pristine Classic Cooking Cream 1 Lt",
+          "category": "Dairy",
+          "monthly": [
+            7036036.1,
+            0.0,
+            0.0,
+            1486486.5,
+            7977477.55,
+            13180180.3,
+            14914414.55,
+            0.0
+          ],
+          "total": 44594595.0
         },
         {
           "name": "O Sole Pomodori Secchi Oilio Di Gir 960 Gr",
@@ -727,7 +727,7 @@
       ],
       "total": 676294784.784053,
       "rank": 2,
-      "pct_of_total": 20.141854671316416,
+      "pct_of_total": 19.979033964612224,
       "product_count": 23,
       "status": "flat",
       "mom_pct": -5.9,
@@ -744,12 +744,12 @@
         56438137.879750006,
         53065424.34973501,
         74499325.93965201,
-        28488297.709888
+        32318023.469862
       ],
       "products": [
         {
           "name": "Tepung Double Zero 1kg/pack",
-          "category": "Flour Sriboga",
+          "category": "Bakery",
           "monthly": [
             150000.0,
             75000.0,
@@ -809,7 +809,7 @@
         },
         {
           "name": "Australian Butter Unsalted",
-          "category": "Dairy",
+          "category": "Bakery",
           "monthly": [
             29729697.9998,
             26013485.749825,
@@ -818,9 +818,9 @@
             37162122.49975,
             37162122.49975,
             48310759.249675,
-            14864848.9999
+            18581061.249875
           ],
-          "total": 211824098.24857503
+          "total": 215540310.49855003
         },
         {
           "name": "Pure Green Tea @50TB/Box",
@@ -938,9 +938,9 @@
             0.0,
             567567.549995,
             1362162.119988,
-            227027.019998
+            340540.529997
           ],
-          "total": 2156756.689981
+          "total": 2270270.19998
         },
         {
           "name": "Lemongrass @250gr",
@@ -973,9 +973,9 @@
           "total": 492187.39
         }
       ],
-      "total": 338423480.62850004,
+      "total": 342253206.38847405,
       "rank": 3,
-      "pct_of_total": 10.079149976525217,
+      "pct_of_total": 10.110810535255215,
       "product_count": 15,
       "status": "growing",
       "mom_pct": 40.4,
@@ -992,12 +992,12 @@
         19270720.879876003,
         17297298.09996,
         19909910.79995,
-        7747747.89998
+        12972973.29996
       ],
       "products": [
         {
           "name": "Tepung Double Zero @25Kg/Sack",
-          "category": "Flour Sriboga",
+          "category": "Bakery",
           "monthly": [
             11800000.0,
             11800000.0,
@@ -1006,13 +1006,13 @@
             8512612.69999,
             10450450.79996,
             13063063.49995,
-            5225225.39998
+            10450450.79996
           ],
-          "total": 84451352.39988
+          "total": 89676577.79986002
         },
         {
           "name": "Tepung Ninja @25Kg/Sack",
-          "category": "Flour Sriboga",
+          "category": "Bakery",
           "monthly": [
             2850000.0,
             2850000.0,
@@ -1027,7 +1027,7 @@
         },
         {
           "name": "Tepung 00 Fusion @25Kg",
-          "category": "Flour Sriboga",
+          "category": "Bakery",
           "monthly": [
             0.0,
             0.0,
@@ -1056,9 +1056,9 @@
           "total": 36535136.339598
         }
       ],
-      "total": 145754056.239478,
+      "total": 150979281.63945797,
       "rank": 4,
-      "pct_of_total": 4.340942861873257,
+      "pct_of_total": 4.460215077350709,
       "product_count": 4,
       "status": "flat",
       "mom_pct": 15.1,
@@ -1075,7 +1075,7 @@
         19562946.0,
         25524243.3,
         20832144.2,
-        8960216.25
+        9324216.25
       ],
       "products": [
         {
@@ -1089,13 +1089,13 @@
             2772000.0,
             2016000.0,
             1848000.0,
-            819000.0
+            1183000.0
           ],
-          "total": 14133000.0
+          "total": 14497000.0
         },
         {
           "name": "Tepung Double Zero @25Kg/Sack",
-          "category": "Flour Sriboga",
+          "category": "Bakery",
           "monthly": [
             10325000.0,
             5900000.0,
@@ -1154,9 +1154,9 @@
           "total": 42563063.45
         }
       ],
-      "total": 140356198.5954,
+      "total": 140720198.5954,
       "rank": 5,
-      "pct_of_total": 4.180180326585943,
+      "pct_of_total": 4.157142255861395,
       "product_count": 5,
       "status": "growing",
       "mom_pct": -18.4,
@@ -1173,7 +1173,7 @@
         13532494.634770999,
         16454366.588976001,
         19541293.537374,
-        7443516.950382
+        8042471.865178
       ],
       "products": [
         {
@@ -1253,7 +1253,7 @@
         },
         {
           "name": "Tepung Double Zero @25Kg/Sack",
-          "category": "Flour Sriboga",
+          "category": "Bakery",
           "monthly": [
             1328828.85,
             797297.31,
@@ -1397,9 +1397,9 @@
             0.0,
             0.0,
             112612.61,
-            0.0
+            112612.61
           ],
-          "total": 900900.88
+          "total": 1013513.49
         },
         {
           "name": "Bergold Mozzarella Block",
@@ -1412,9 +1412,9 @@
             2380486.354774,
             1096666.605988,
             735063.022392,
-            1103441.380388
+            1472666.585184
           ],
-          "total": 15177179.880964998
+          "total": 15546405.085761
         },
         {
           "name": "Masterista Japanese Koicha Powder 500 Gr",
@@ -1487,9 +1487,9 @@
             1932432.15,
             2576576.2,
             2576576.2,
-            936936.8
+            1054053.9
           ],
-          "total": 16981979.5
+          "total": 17099096.599999998
         },
         {
           "name": "Crr Rock'n Hash Brown Triangular 2.5Kg",
@@ -1627,9 +1627,9 @@
           "total": 327027.029997
         }
       ],
-      "total": 126745452.42792599,
+      "total": 127344407.342722,
       "rank": 6,
-      "pct_of_total": 3.7748161607791992,
+      "pct_of_total": 3.761995947249614,
       "product_count": 30,
       "status": "flat",
       "mom_pct": 18.8,
@@ -1646,7 +1646,7 @@
         18139180.59,
         18471138.749999996,
         18301801.14,
-        4324324.0
+        4702702.39
       ],
       "products": [
         {
@@ -1845,21 +1845,6 @@
           "total": 5405405.4
         },
         {
-          "name": "Crr Rock'n Hash Brown Triangular 2.5Kg",
-          "category": "Frozen Fries",
-          "monthly": [
-            0.0,
-            0.0,
-            0.0,
-            0.0,
-            225225.22,
-            1013513.49,
-            1801801.76,
-            0.0
-          ],
-          "total": 3040540.4699999997
-        },
-        {
           "name": "Wasabi Paste 43 Gr",
           "category": "Dry Goods",
           "monthly": [
@@ -1875,6 +1860,21 @@
           "total": 18018.02
         },
         {
+          "name": "Crr Rock'n Hash Brown Triangular 2.5Kg",
+          "category": "Frozen Fries",
+          "monthly": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            225225.22,
+            1013513.49,
+            1801801.76,
+            0.0
+          ],
+          "total": 3040540.4699999997
+        },
+        {
           "name": "Crr Rock'n Waffle Fries 2.5 Kg",
           "category": "Frozen Fries",
           "monthly": [
@@ -1885,9 +1885,9 @@
             0.0,
             252252.26,
             504504.52,
-            0.0
+            378378.39
           ],
-          "total": 756756.78
+          "total": 1135135.17
         },
         {
           "name": "Premium Straight Cut 2.5Kg",
@@ -1935,9 +1935,9 @@
           "total": 1891891.89
         }
       ],
-      "total": 94449430.669988,
+      "total": 94827809.059988,
       "rank": 7,
-      "pct_of_total": 2.8129548669385693,
+      "pct_of_total": 2.801393801379403,
       "product_count": 19,
       "status": "growing",
       "mom_pct": -0.9,
@@ -1954,12 +1954,12 @@
         8326126.119984,
         14232612.619961001,
         12654864.899965998,
-        5417387.439986001
+        5417387.439986
       ],
       "products": [
         {
           "name": "Tepung Double Zero @25Kg/Sack",
-          "category": "Flour Sriboga",
+          "category": "Bakery",
           "monthly": [
             1180000.0,
             2360000.0,
@@ -1974,7 +1974,7 @@
         },
         {
           "name": "Tepung Hime @25Kg/Sack",
-          "category": "Flour Sriboga",
+          "category": "Bakery",
           "monthly": [
             4828828.799984,
             9657657.599968,
@@ -1989,7 +1989,7 @@
         },
         {
           "name": "Tepung 00 Fusion @25Kg",
-          "category": "Flour Sriboga",
+          "category": "Bakery",
           "monthly": [
             0.0,
             0.0,
@@ -2018,21 +2018,6 @@
           "total": 2827702.82
         },
         {
-          "name": "English Breakfast@50TB/Box",
-          "category": "Beverage",
-          "monthly": [
-            912162.2,
-            912162.2,
-            912162.2,
-            912162.2,
-            364864.88,
-            820945.98,
-            1641891.96,
-            547297.32
-          ],
-          "total": 7023648.94
-        },
-        {
           "name": "Earl Grey @50TB/Box",
           "category": "Beverage",
           "monthly": [
@@ -2046,6 +2031,21 @@
             384144.159996
           ],
           "total": 1152432.479988
+        },
+        {
+          "name": "English Breakfast@50TB/Box",
+          "category": "Beverage",
+          "monthly": [
+            912162.2,
+            912162.2,
+            912162.2,
+            912162.2,
+            364864.88,
+            820945.98,
+            1641891.96,
+            547297.32
+          ],
+          "total": 7023648.94
         },
         {
           "name": "Peppermint Tea @50tb/Box",
@@ -2125,7 +2125,7 @@
       ],
       "total": 79539910.079799,
       "rank": 8,
-      "pct_of_total": 2.368909749774939,
+      "pct_of_total": 2.3497601944896416,
       "product_count": 11,
       "status": "growing",
       "mom_pct": -11.1,
@@ -2358,7 +2358,7 @@
       ],
       "total": 77618918.39998999,
       "rank": 9,
-      "pct_of_total": 2.3116975161305886,
+      "pct_of_total": 2.293010447367317,
       "product_count": 14,
       "status": "growing",
       "mom_pct": 13.6,
@@ -2375,12 +2375,12 @@
         7680000.0,
         11200000.0,
         7360000.0,
-        4800000.0
+        4830000.0
       ],
       "products": [
         {
           "name": "Tepung Hime @25Kg/Sack",
-          "category": "Flour Sriboga",
+          "category": "Bakery",
           "monthly": [
             8960000.0,
             7680000.0,
@@ -2392,12 +2392,27 @@
             4800000.0
           ],
           "total": 67520000.0
+        },
+        {
+          "name": "Amron Topside - Sampel",
+          "category": "Other",
+          "monthly": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            30000.0
+          ],
+          "total": 30000.0
         }
       ],
-      "total": 67520000.0,
+      "total": 67550000.0,
       "rank": 10,
-      "pct_of_total": 2.0109249073117392,
-      "product_count": 1,
+      "pct_of_total": 1.9955554510752145,
+      "product_count": 2,
       "status": "flat",
       "mom_pct": -34.3,
       "last_active_month": "August*",
@@ -2494,7 +2509,7 @@
       ],
       "total": 64866666.689881004,
       "rank": 11,
-      "pct_of_total": 1.931901595097311,
+      "pct_of_total": 1.916284682547314,
       "product_count": 5,
       "status": "growing",
       "mom_pct": 8.3,
@@ -2506,7 +2521,7 @@
       "monthly": [
         2353603.499975,
         6342342.149945,
-        6233333.139945999,
+        6233333.139946001,
         8150900.599925,
         8408558.269917998,
         9786035.749909999,
@@ -2607,7 +2622,7 @@
       ],
       "total": 58592340.35945899,
       "rank": 12,
-      "pct_of_total": 1.7450354947648545,
+      "pct_of_total": 1.7309291516739107,
       "product_count": 6,
       "status": "growing",
       "mom_pct": -7.1,
@@ -2825,7 +2840,7 @@
       ],
       "total": 57708720.809516996,
       "rank": 13,
-      "pct_of_total": 1.7187189580118043,
+      "pct_of_total": 1.704825349903913,
       "product_count": 13,
       "status": "growing",
       "mom_pct": 81.2,
@@ -2847,7 +2862,7 @@
       "products": [
         {
           "name": "Tepung Double Zero @25Kg/Sack",
-          "category": "Flour Sriboga",
+          "category": "Bakery",
           "monthly": [
             4741441.449981,
             2994594.599988,
@@ -2862,7 +2877,7 @@
         },
         {
           "name": "Tepung Hime @25Kg/Sack",
-          "category": "Flour Sriboga",
+          "category": "Bakery",
           "monthly": [
             0.0,
             320000.0,
@@ -2968,7 +2983,7 @@
       ],
       "total": 55942999.979881994,
       "rank": 14,
-      "pct_of_total": 1.666131102625664,
+      "pct_of_total": 1.6526625989541692,
       "product_count": 8,
       "status": "flat",
       "mom_pct": -32.1,
@@ -2985,7 +3000,7 @@
         4151882.944777,
         7486486.445544,
         7751162.0459630005,
-        2541441.3398900004
+        4130630.529872
       ],
       "products": [
         {
@@ -3005,7 +3020,7 @@
         },
         {
           "name": "Tepung Pita Emas 1Kg/Pack - Sample",
-          "category": "Flour Sriboga",
+          "category": "Bakery",
           "monthly": [
             12000.0,
             0.0,
@@ -3074,9 +3089,9 @@
             1378378.44,
             3329729.759958,
             0.0,
-            0.0
+            1427027.039982
           ],
-          "total": 10221621.959957998
+          "total": 11648648.999939999
         },
         {
           "name": "Bergold Mozzarella Block",
@@ -3104,9 +3119,9 @@
             0.0,
             1513513.4,
             2270270.1,
-            1405405.3
+            1567567.45
           ],
-          "total": 12216215.3
+          "total": 12378377.45
         },
         {
           "name": "Earl Grey @50TB/Box",
@@ -3229,9 +3244,9 @@
           "total": 101081.08
         }
       ],
-      "total": 44705289.087183,
+      "total": 46294478.277164996,
       "rank": 15,
-      "pct_of_total": 1.3314422291763626,
+      "pct_of_total": 1.3676269205133933,
       "product_count": 16,
       "status": "flat",
       "mom_pct": 3.5,
@@ -3248,12 +3263,12 @@
         6195000.0,
         5015000.0,
         6195000.0,
-        2655000.0
+        4425000.0
       ],
       "products": [
         {
           "name": "Tepung Double Zero @25Kg/Sack",
-          "category": "Flour Sriboga",
+          "category": "Bakery",
           "monthly": [
             6195000.0,
             5900000.0,
@@ -3262,13 +3277,13 @@
             6195000.0,
             5015000.0,
             6195000.0,
-            2655000.0
+            4425000.0
           ],
-          "total": 42480000.0
+          "total": 44250000.0
         },
         {
           "name": "Tepung 00 Fusion @25Kg",
-          "category": "Flour Sriboga",
+          "category": "Bakery",
           "monthly": [
             0.0,
             0.0,
@@ -3282,9 +3297,9 @@
           "total": 1475000.0
         }
       ],
-      "total": 43955000.0,
+      "total": 45725000.0,
       "rank": 16,
-      "pct_of_total": 1.309096627679021,
+      "pct_of_total": 1.3508034493029486,
       "product_count": 2,
       "status": "flat",
       "mom_pct": 23.5,
@@ -3306,7 +3321,7 @@
       "products": [
         {
           "name": "Tepung Double Zero @25Kg/Sack",
-          "category": "Flour Sriboga",
+          "category": "Bakery",
           "monthly": [
             2950000.0,
             2950000.0,
@@ -3427,7 +3442,7 @@
       ],
       "total": 42773479.29146999,
       "rank": 17,
-      "pct_of_total": 1.27390780331161,
+      "pct_of_total": 1.2636099150487896,
       "product_count": 8,
       "status": "growing",
       "mom_pct": 89.9,
@@ -3449,7 +3464,7 @@
       "products": [
         {
           "name": "Tepung Double Zero @25Kg/Sack",
-          "category": "Flour Sriboga",
+          "category": "Bakery",
           "monthly": [
             7441441.56,
             4252252.32,
@@ -3465,7 +3480,7 @@
       ],
       "total": 39936937.92,
       "rank": 18,
-      "pct_of_total": 1.189428068499566,
+      "pct_of_total": 1.1798130890526786,
       "product_count": 1,
       "status": "growing",
       "mom_pct": 34.6,
@@ -3532,7 +3547,7 @@
         },
         {
           "name": "Tepung Double Zero 1kg/pack",
-          "category": "Flour Sriboga",
+          "category": "Bakery",
           "monthly": [
             0.0,
             0.0,
@@ -3666,19 +3681,19 @@
           "total": 3360946.049965
         },
         {
-          "name": "O Sole Doppio Concentrato Paste Tomato 2.2 Kg",
-          "category": "Dry Goods",
+          "name": "Earl Grey @50TB/Box",
+          "category": "Beverage",
           "monthly": [
             0.0,
             0.0,
-            261261.26,
+            101081.08,
+            202162.16,
             0.0,
-            0.0,
-            0.0,
-            0.0,
+            303243.24,
+            303243.24,
             0.0
           ],
-          "total": 261261.26
+          "total": 909729.72
         },
         {
           "name": "Pure Green Tea @50TB/Box",
@@ -3696,19 +3711,19 @@
           "total": 960270.29999
         },
         {
-          "name": "Earl Grey @50TB/Box",
-          "category": "Beverage",
+          "name": "O Sole Doppio Concentrato Paste Tomato 2.2 Kg",
+          "category": "Dry Goods",
           "monthly": [
             0.0,
             0.0,
-            101081.08,
-            202162.16,
+            261261.26,
             0.0,
-            303243.24,
-            303243.24,
+            0.0,
+            0.0,
+            0.0,
             0.0
           ],
-          "total": 909729.72
+          "total": 261261.26
         },
         {
           "name": "Javanese Jasmine Tea @50TB/Box",
@@ -3758,7 +3773,7 @@
       ],
       "total": 34762514.379758,
       "rank": 19,
-      "pct_of_total": 1.0353199941800633,
+      "pct_of_total": 1.026950778143695,
       "product_count": 18,
       "status": "growing",
       "mom_pct": -17.6,
@@ -3780,7 +3795,7 @@
       "products": [
         {
           "name": "Tepung Double Zero @25Kg/Sack",
-          "category": "Flour Sriboga",
+          "category": "Bakery",
           "monthly": [
             3531531.5,
             2018018.0,
@@ -3795,7 +3810,7 @@
         },
         {
           "name": "Tepung 00 Fusion @25Kg",
-          "category": "Flour Sriboga",
+          "category": "Bakery",
           "monthly": [
             0.0,
             0.0,
@@ -3826,7 +3841,7 @@
       ],
       "total": 32414414.070000004,
       "rank": 20,
-      "pct_of_total": 0.9653873312985648,
+      "pct_of_total": 0.957583429915583,
       "product_count": 3,
       "status": "growing",
       "mom_pct": 14.3,
@@ -3843,7 +3858,7 @@
         6172470.159965999,
         3641337.639939,
         5138007.139974999,
-        2639594.39994
+        2812567.359936
       ],
       "products": [
         {
@@ -3863,7 +3878,7 @@
         },
         {
           "name": "Tepung Double Zero 1kg/pack",
-          "category": "Flour Sriboga",
+          "category": "Bakery",
           "monthly": [
             405000.0,
             210000.0,
@@ -4037,9 +4052,9 @@
             864864.79998,
             1556756.639964,
             691891.839984,
-            1470270.159966
+            1643243.119962
           ],
-          "total": 4583783.439894
+          "total": 4756756.39989
         },
         {
           "name": "Flavorista Matcha (1000Gr/Pack)",
@@ -4057,9 +4072,9 @@
           "total": 172612.619998
         }
       ],
-      "total": 29034956.179817,
+      "total": 29207929.139813,
       "rank": 21,
-      "pct_of_total": 0.8647381007804935,
+      "pct_of_total": 0.8628577677212794,
       "product_count": 14,
       "status": "growing",
       "mom_pct": 41.1,
@@ -4081,7 +4096,7 @@
       "products": [
         {
           "name": "Tepung Double Zero @25Kg/Sack",
-          "category": "Flour Sriboga",
+          "category": "Bakery",
           "monthly": [
             3135135.12,
             2612612.6,
@@ -4111,7 +4126,7 @@
         },
         {
           "name": "Tepung 00 Fusion @25Kg",
-          "category": "Flour Sriboga",
+          "category": "Bakery",
           "monthly": [
             0.0,
             0.0,
@@ -4232,7 +4247,7 @@
       ],
       "total": 28177505.309993997,
       "rank": 22,
-      "pct_of_total": 0.8392009368153988,
+      "pct_of_total": 0.8324170883650528,
       "product_count": 10,
       "status": "declining",
       "mom_pct": -20.2,
@@ -4285,7 +4300,7 @@
       ],
       "total": 28107960.0,
       "rank": 23,
-      "pct_of_total": 0.8371296927980165,
+      "pct_of_total": 0.8303625876625327,
       "product_count": 2,
       "status": "churned",
       "mom_pct": null,
@@ -4548,7 +4563,7 @@
       ],
       "total": 22268630.599238,
       "rank": 24,
-      "pct_of_total": 0.6632189562164106,
+      "pct_of_total": 0.6578576932685375,
       "product_count": 16,
       "status": "growing",
       "mom_pct": -31.7,
@@ -4615,7 +4630,7 @@
         },
         {
           "name": "Tepung Double Zero 1kg/pack",
-          "category": "Flour Sriboga",
+          "category": "Bakery",
           "monthly": [
             0.0,
             279279.19998,
@@ -4630,7 +4645,7 @@
         },
         {
           "name": "Tepung Hime @25Kg/Sack",
-          "category": "Flour Sriboga",
+          "category": "Bakery",
           "monthly": [
             0.0,
             320000.0,
@@ -4645,7 +4660,7 @@
         },
         {
           "name": "Tepung Hime 1kg/pack",
-          "category": "Flour Sriboga",
+          "category": "Bakery",
           "monthly": [
             0.0,
             0.0,
@@ -4886,7 +4901,7 @@
       ],
       "total": 19022633.529842,
       "rank": 25,
-      "pct_of_total": 0.5665445433623032,
+      "pct_of_total": 0.561964767346889,
       "product_count": 21,
       "status": "growing",
       "mom_pct": 60.6,
@@ -4923,7 +4938,7 @@
         },
         {
           "name": "Tepung Double Zero @25Kg/Sack",
-          "category": "Flour Sriboga",
+          "category": "Bakery",
           "monthly": [
             1171171.159996,
             585585.579998,
@@ -4939,7 +4954,7 @@
       ],
       "total": 13986098.119972,
       "rank": 26,
-      "pct_of_total": 0.41654314374344764,
+      "pct_of_total": 0.4131759340130708,
       "product_count": 2,
       "status": "growing",
       "mom_pct": 12.0,
@@ -4992,7 +5007,7 @@
       ],
       "total": 12987744.413995,
       "rank": 27,
-      "pct_of_total": 0.3868095191336116,
+      "pct_of_total": 0.3836826670987326,
       "product_count": 2,
       "status": "growing",
       "mom_pct": -47.4,
@@ -5105,7 +5120,7 @@
       ],
       "total": 12391054.249893,
       "rank": 28,
-      "pct_of_total": 0.3690385014656519,
+      "pct_of_total": 0.3660553050028524,
       "product_count": 6,
       "status": "growing",
       "mom_pct": 99.6,
@@ -5158,7 +5173,7 @@
       ],
       "total": 10443405.5,
       "rank": 29,
-      "pct_of_total": 0.31103234948321107,
+      "pct_of_total": 0.30851805733995374,
       "product_count": 2,
       "status": "new",
       "mom_pct": 0.0,
@@ -5211,7 +5226,7 @@
       ],
       "total": 9820864.86,
       "rank": 30,
-      "pct_of_total": 0.2924914359940258,
+      "pct_of_total": 0.2901270230295488,
       "product_count": 2,
       "status": "growing",
       "mom_pct": -33.8,
@@ -5278,7 +5293,7 @@
         },
         {
           "name": "Gold Box Melange Butter MP331 5 Kg",
-          "category": "Dairy",
+          "category": "Bakery",
           "monthly": [
             0.0,
             0.0,
@@ -5294,7 +5309,7 @@
       ],
       "total": 8854493.867537,
       "rank": 31,
-      "pct_of_total": 0.2637103415264989,
+      "pct_of_total": 0.261578586289793,
       "product_count": 4,
       "status": "churned",
       "mom_pct": -100.0,
@@ -5362,7 +5377,7 @@
       ],
       "total": 8488075.16,
       "rank": 32,
-      "pct_of_total": 0.2527974193480166,
+      "pct_of_total": 0.25075388089821055,
       "product_count": 3,
       "status": "growing",
       "mom_pct": -5.0,
@@ -5384,7 +5399,7 @@
       "products": [
         {
           "name": "Tepung Double Zero @25Kg/Sack",
-          "category": "Flour Sriboga",
+          "category": "Bakery",
           "monthly": [
             0.0,
             0.0,
@@ -5400,7 +5415,7 @@
       ],
       "total": 7375000.0,
       "rank": 33,
-      "pct_of_total": 0.2196470851810438,
+      "pct_of_total": 0.21787152408112076,
       "product_count": 1,
       "status": "growing",
       "mom_pct": -50.0,
@@ -5483,7 +5498,7 @@
       ],
       "total": 7190991.189997999,
       "rank": 34,
-      "pct_of_total": 0.2141668141621188,
+      "pct_of_total": 0.21243555392796964,
       "product_count": 4,
       "status": "churned",
       "mom_pct": null,
@@ -5505,7 +5520,7 @@
       "products": [
         {
           "name": "Tepung Double Zero @25Kg/Sack",
-          "category": "Flour Sriboga",
+          "category": "Bakery",
           "monthly": [
             885000.0,
             1180000.0,
@@ -5521,7 +5536,7 @@
       ],
       "total": 6785000.0,
       "rank": 35,
-      "pct_of_total": 0.2020753183665603,
+      "pct_of_total": 0.2004418021546311,
       "product_count": 1,
       "status": "declining",
       "mom_pct": -50.0,
@@ -5604,7 +5619,7 @@
       ],
       "total": 6166666.599959999,
       "rank": 36,
-      "pct_of_total": 0.183659707656205,
+      "pct_of_total": 0.18217505771300718,
       "product_count": 4,
       "status": "new",
       "mom_pct": null,
@@ -5702,7 +5717,7 @@
       ],
       "total": 5998108.119988,
       "rank": 37,
-      "pct_of_total": 0.17863958849574438,
+      "pct_of_total": 0.17719551968883138,
       "product_count": 5,
       "status": "growing",
       "mom_pct": 602.7,
@@ -5755,7 +5770,7 @@
       ],
       "total": 5869500.044,
       "rank": 38,
-      "pct_of_total": 0.17480929845892995,
+      "pct_of_total": 0.17339619256684546,
       "product_count": 2,
       "status": "flat",
       "mom_pct": -50.6,
@@ -5807,7 +5822,7 @@
         },
         {
           "name": "Tepung Beruang Emas 1Kg/Pack - Sample",
-          "category": "Flour Sriboga",
+          "category": "Bakery",
           "monthly": [
             0.0,
             0.0,
@@ -5851,7 +5866,7 @@
           "total": 1600000.0
         },
         {
-          "name": "Masterista Syrup Pistachio 850 Ml",
+          "name": "Masterista Syrup Classic Caramel 850ml",
           "category": "Beverage",
           "monthly": [
             0.0,
@@ -5866,7 +5881,7 @@
           "total": 99099.1
         },
         {
-          "name": "Masterista Syrup Classic Caramel 850ml",
+          "name": "Masterista Syrup Pistachio 850 Ml",
           "category": "Beverage",
           "monthly": [
             0.0,
@@ -6003,7 +6018,7 @@
       ],
       "total": 5683013.510000002,
       "rank": 39,
-      "pct_of_total": 0.1692552342394567,
+      "pct_of_total": 0.1678870257352271,
       "product_count": 15,
       "status": "churned",
       "mom_pct": -100.0,
@@ -6070,7 +6085,7 @@
         },
         {
           "name": "Tepung Double Zero @25Kg/Sack",
-          "category": "Flour Sriboga",
+          "category": "Bakery",
           "monthly": [
             567567.56,
             0.0,
@@ -6101,7 +6116,7 @@
       ],
       "total": 5141670.24,
       "rank": 40,
-      "pct_of_total": 0.1531325940580499,
+      "pct_of_total": 0.15189471613713112,
       "product_count": 5,
       "status": "declining",
       "mom_pct": 1.2,
@@ -6199,63 +6214,10 @@
       ],
       "total": 4940112.719919,
       "rank": 41,
-      "pct_of_total": 0.14712967585030598,
+      "pct_of_total": 0.14594032371814009,
       "product_count": 5,
       "status": "new",
       "mom_pct": 41.2,
-      "last_active_month": "August*",
-      "cls": "C"
-    },
-    {
-      "name": "THE OBEROI",
-      "monthly": [
-        270270.27,
-        0.0,
-        810810.81,
-        270270.27,
-        540540.54,
-        1351351.35,
-        540540.54,
-        1130540.54
-      ],
-      "products": [
-        {
-          "name": "Tepung Hime @25Kg/Sack",
-          "category": "Flour Sriboga",
-          "monthly": [
-            270270.27,
-            0.0,
-            810810.81,
-            270270.27,
-            540540.54,
-            1351351.35,
-            540540.54,
-            540540.54
-          ],
-          "total": 4324324.32
-        },
-        {
-          "name": "Tepung Double Zero @25Kg/Sack",
-          "category": "Flour Sriboga",
-          "monthly": [
-            0.0,
-            0.0,
-            0.0,
-            0.0,
-            0.0,
-            0.0,
-            0.0,
-            590000.0
-          ],
-          "total": 590000.0
-        }
-      ],
-      "total": 4914324.32,
-      "rank": 42,
-      "pct_of_total": 0.14636162881658513,
-      "product_count": 2,
-      "status": "growing",
-      "mom_pct": -60.0,
       "last_active_month": "August*",
       "cls": "C"
     },
@@ -6274,7 +6236,7 @@
       "products": [
         {
           "name": "Tepung Double Zero @25Kg/Sack",
-          "category": "Flour Sriboga",
+          "category": "Bakery",
           "monthly": [
             567567.56,
             851351.34,
@@ -6304,12 +6266,50 @@
         }
       ],
       "total": 4554054.000000001,
-      "rank": 43,
-      "pct_of_total": 0.13563182194672183,
+      "rank": 42,
+      "pct_of_total": 0.13453541501392874,
       "product_count": 2,
       "status": "declining",
       "mom_pct": -50.0,
       "last_active_month": "July",
+      "cls": "C"
+    },
+    {
+      "name": "BALI DYNASTY RESORT",
+      "monthly": [
+        0.0,
+        504504.5,
+        504504.5,
+        1009009.0,
+        0.0,
+        1009009.0,
+        1009009.0,
+        504504.5
+      ],
+      "products": [
+        {
+          "name": "Inofa Heat Treated Wheat Flour SF 346 @25kg/sack",
+          "category": "Flour Mip",
+          "monthly": [
+            0.0,
+            504504.5,
+            504504.5,
+            1009009.0,
+            0.0,
+            1009009.0,
+            1009009.0,
+            504504.5
+          ],
+          "total": 4540540.5
+        }
+      ],
+      "total": 4540540.5,
+      "rank": 43,
+      "pct_of_total": 0.13413620052705819,
+      "product_count": 1,
+      "status": "growing",
+      "mom_pct": 0.0,
+      "last_active_month": "August*",
       "cls": "C"
     },
     {
@@ -6327,7 +6327,7 @@
       "products": [
         {
           "name": "Tepung Yokozuna 1kg/pack",
-          "category": "Flour Sriboga",
+          "category": "Bakery",
           "monthly": [
             280000.0,
             0.0,
@@ -6358,7 +6358,7 @@
       ],
       "total": 4483000.0,
       "rank": 44,
-      "pct_of_total": 0.13351564513445688,
+      "pct_of_total": 0.1324363447397511,
       "product_count": 2,
       "status": "growing",
       "mom_pct": -55.0,
@@ -6375,7 +6375,7 @@
         532882.869987,
         1027477.4899889999,
         945495.5099909999,
-        304973.0
+        441473.0
       ],
       "products": [
         {
@@ -6389,9 +6389,9 @@
             532882.869987,
             450900.889989,
             368918.909991,
-            304973.0
+            441473.0
           ],
-          "total": 2805423.389939
+          "total": 2941923.389939
         },
         {
           "name": "EQUAL Classic 100 Pcs/Pack",
@@ -6424,9 +6424,9 @@
           "total": 371171.18
         }
       ],
-      "total": 4329747.769939,
+      "total": 4466247.769939,
       "rank": 45,
-      "pct_of_total": 0.12895138674389506,
+      "pct_of_total": 0.13194145200820565,
       "product_count": 3,
       "status": "growing",
       "mom_pct": -8.0,
@@ -6434,41 +6434,56 @@
       "cls": "C"
     },
     {
-      "name": "BALI DYNASTY RESORT",
+      "name": "THE OBEROI",
       "monthly": [
+        270270.27,
         0.0,
-        504504.5,
-        504504.5,
-        1009009.0,
-        0.0,
-        1009009.0,
-        1009009.0,
-        0.0
+        810810.81,
+        270270.27,
+        540540.54,
+        1351351.35,
+        540540.54,
+        540540.54
       ],
       "products": [
         {
-          "name": "Inofa Heat Treated Wheat Flour SF 346 @25kg/sack",
-          "category": "Flour Mip",
+          "name": "Tepung Hime @25Kg/Sack",
+          "category": "Bakery",
+          "monthly": [
+            270270.27,
+            0.0,
+            810810.81,
+            270270.27,
+            540540.54,
+            1351351.35,
+            540540.54,
+            540540.54
+          ],
+          "total": 4324324.32
+        },
+        {
+          "name": "Tepung Double Zero @25Kg/Sack",
+          "category": "Bakery",
           "monthly": [
             0.0,
-            504504.5,
-            504504.5,
-            1009009.0,
             0.0,
-            1009009.0,
-            1009009.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
             0.0
           ],
-          "total": 4036036.0
+          "total": 0.0
         }
       ],
-      "total": 4036036.0,
+      "total": 4324324.32,
       "rank": 46,
-      "pct_of_total": 0.12020387024891653,
-      "product_count": 1,
+      "pct_of_total": 0.12774876341958727,
+      "product_count": 2,
       "status": "growing",
-      "mom_pct": 0.0,
-      "last_active_month": "July",
+      "mom_pct": -60.0,
+      "last_active_month": "August*",
       "cls": "C"
     },
     {
@@ -6532,7 +6547,7 @@
       ],
       "total": 3560927.97,
       "rank": 47,
-      "pct_of_total": 0.10605389141019003,
+      "pct_of_total": 0.1051965835887446,
       "product_count": 3,
       "status": "growing",
       "mom_pct": -50.0,
@@ -6554,7 +6569,7 @@
       "products": [
         {
           "name": "Tepung Pita Emas @25Kg/Sack",
-          "category": "Flour Sriboga",
+          "category": "Bakery",
           "monthly": [
             225225.23,
             0.0,
@@ -6584,7 +6599,7 @@
         },
         {
           "name": "Tepung Beruang Emas @25Kg/Sack",
-          "category": "Flour Sriboga",
+          "category": "Bakery",
           "monthly": [
             219819.82,
             0.0,
@@ -6599,7 +6614,7 @@
         },
         {
           "name": "Tepung Stupa Emas 25 Kg",
-          "category": "Flour Sriboga",
+          "category": "Bakery",
           "monthly": [
             0.0,
             0.0,
@@ -6690,7 +6705,7 @@
       ],
       "total": 3454022.584193,
       "rank": 48,
-      "pct_of_total": 0.10286996512101546,
+      "pct_of_total": 0.10203839520389697,
       "product_count": 9,
       "status": "flat",
       "mom_pct": 4.2,
@@ -6712,7 +6727,7 @@
       "products": [
         {
           "name": "Tepung Double Zero @25Kg/Sack",
-          "category": "Flour Sriboga",
+          "category": "Bakery",
           "monthly": [
             295000.0,
             295000.0,
@@ -6743,7 +6758,7 @@
       ],
       "total": 3253783.7800000003,
       "rank": 49,
-      "pct_of_total": 0.09690632177442153,
+      "pct_of_total": 0.09612296015986849,
       "product_count": 2,
       "status": "growing",
       "mom_pct": 100.0,
@@ -6796,7 +6811,7 @@
       ],
       "total": 3125871.6209939998,
       "rank": 50,
-      "pct_of_total": 0.09309675799342056,
+      "pct_of_total": 0.09234419174886592,
       "product_count": 2,
       "status": "declining",
       "mom_pct": 100.0,
@@ -6849,7 +6864,7 @@
       ],
       "total": 3070270.75,
       "rank": 51,
-      "pct_of_total": 0.09144081640055828,
+      "pct_of_total": 0.09070163629073703,
       "product_count": 2,
       "status": "new",
       "mom_pct": 15.2,
@@ -6932,7 +6947,7 @@
       ],
       "total": 2846846.719984,
       "rank": 52,
-      "pct_of_total": 0.08478665545785774,
+      "pct_of_total": 0.08410126558755983,
       "product_count": 4,
       "status": "growing",
       "mom_pct": 25.1,
@@ -6954,7 +6969,7 @@
       "products": [
         {
           "name": "Tepung Double Zero 1kg/pack",
-          "category": "Flour Sriboga",
+          "category": "Bakery",
           "monthly": [
             0.0,
             150000.0,
@@ -7060,7 +7075,7 @@
       ],
       "total": 2566639.619996,
       "rank": 53,
-      "pct_of_total": 0.07644134389726147,
+      "pct_of_total": 0.0758234150204091,
       "product_count": 7,
       "status": "declining",
       "mom_pct": -44.4,
@@ -7112,7 +7127,7 @@
         },
         {
           "name": "Gold Box Extra Butter MP341 250gr - Sample",
-          "category": "Other",
+          "category": "Bakery",
           "monthly": [
             0.0,
             0.0,
@@ -7142,7 +7157,7 @@
         },
         {
           "name": "Gold Box Extra Butter MP341 5 Kg",
-          "category": "Dairy",
+          "category": "Bakery",
           "monthly": [
             0.0,
             0.0,
@@ -7158,7 +7173,7 @@
       ],
       "total": 2409495.531399,
       "rank": 54,
-      "pct_of_total": 0.0717611756242089,
+      "pct_of_total": 0.07118107982271865,
       "product_count": 5,
       "status": "growing",
       "mom_pct": -9.8,
@@ -7226,7 +7241,7 @@
       ],
       "total": 2220270.33,
       "rank": 55,
-      "pct_of_total": 0.06612554661673956,
+      "pct_of_total": 0.06559100754836514,
       "product_count": 3,
       "status": "churned",
       "mom_pct": null,
@@ -7248,7 +7263,7 @@
       "products": [
         {
           "name": "Tepung Double Zero @25Kg/Sack",
-          "category": "Flour Sriboga",
+          "category": "Bakery",
           "monthly": [
             295000.0,
             0.0,
@@ -7279,7 +7294,7 @@
       ],
       "total": 2220000.0,
       "rank": 56,
-      "pct_of_total": 0.06611749547144641,
+      "pct_of_total": 0.06558302148611363,
       "product_count": 2,
       "status": "declining",
       "mom_pct": -43.3,
@@ -7377,7 +7392,7 @@
       ],
       "total": 1864432.419988,
       "rank": 57,
-      "pct_of_total": 0.05552774868710561,
+      "pct_of_total": 0.05507887903580173,
       "product_count": 5,
       "status": "declining",
       "mom_pct": 14.0,
@@ -7445,7 +7460,7 @@
       ],
       "total": 1761261.1899990002,
       "rank": 58,
-      "pct_of_total": 0.052455035474681624,
+      "pct_of_total": 0.0520310047145777,
       "product_count": 3,
       "status": "churned",
       "mom_pct": -100.0,
@@ -7467,7 +7482,7 @@
       "products": [
         {
           "name": "Tepung Stupa Emas 25 Kg",
-          "category": "Flour Sriboga",
+          "category": "Bakery",
           "monthly": [
             414000.0,
             0.0,
@@ -7483,7 +7498,7 @@
       ],
       "total": 1656000.0,
       "rank": 59,
-      "pct_of_total": 0.04932007770302489,
+      "pct_of_total": 0.048921389000452335,
       "product_count": 1,
       "status": "declining",
       "mom_pct": null,
@@ -7536,7 +7551,7 @@
       ],
       "total": 1432432.44,
       "rank": 60,
-      "pct_of_total": 0.04266164205624006,
+      "pct_of_total": 0.0423167781486154,
       "product_count": 2,
       "status": "churned",
       "mom_pct": null,
@@ -7649,64 +7664,11 @@
       ],
       "total": 1381099.11,
       "rank": 61,
-      "pct_of_total": 0.041132799167136795,
+      "pct_of_total": 0.040800293966478565,
       "product_count": 6,
       "status": "flat",
       "mom_pct": -11.9,
       "last_active_month": "July",
-      "cls": "C"
-    },
-    {
-      "name": "FONTANA HOTEL",
-      "monthly": [
-        0.0,
-        0.0,
-        292810.81,
-        444621.62,
-        151810.81,
-        303621.62,
-        0.0,
-        0.0
-      ],
-      "products": [
-        {
-          "name": "Masterista Original Matcha 800Gr",
-          "category": "Beverage",
-          "monthly": [
-            0.0,
-            0.0,
-            151810.81,
-            303621.62,
-            151810.81,
-            303621.62,
-            0.0,
-            0.0
-          ],
-          "total": 910864.86
-        },
-        {
-          "name": "Masterista Avocado Base 800Gr",
-          "category": "Beverage",
-          "monthly": [
-            0.0,
-            0.0,
-            141000.0,
-            141000.0,
-            0.0,
-            0.0,
-            0.0,
-            0.0
-          ],
-          "total": 282000.0
-        }
-      ],
-      "total": 1192864.8599999999,
-      "rank": 62,
-      "pct_of_total": 0.03552668332391781,
-      "product_count": 2,
-      "status": "churned",
-      "mom_pct": -100.0,
-      "last_active_month": "June",
       "cls": "C"
     },
     {
@@ -7719,7 +7681,7 @@
         99099.1,
         0.0,
         161558.559998,
-        303162.16000000003
+        402261.26
       ],
       "products": [
         {
@@ -7841,15 +7803,83 @@
             99099.1
           ],
           "total": 99099.1
+        },
+        {
+          "name": "Masterista Syrup Passion Fruit 850 Ml",
+          "category": "Beverage",
+          "monthly": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            99099.1
+          ],
+          "total": 99099.1
         }
       ],
-      "total": 1164279.279998,
-      "rank": 63,
-      "pct_of_total": 0.03467532883908408,
-      "product_count": 8,
+      "total": 1263378.3799979999,
+      "rank": 62,
+      "pct_of_total": 0.03732259974797309,
+      "product_count": 9,
       "status": "declining",
       "mom_pct": null,
       "last_active_month": "August*",
+      "cls": "C"
+    },
+    {
+      "name": "FONTANA HOTEL",
+      "monthly": [
+        0.0,
+        0.0,
+        292810.81,
+        444621.62,
+        151810.81,
+        303621.62,
+        0.0,
+        0.0
+      ],
+      "products": [
+        {
+          "name": "Masterista Original Matcha 800Gr",
+          "category": "Beverage",
+          "monthly": [
+            0.0,
+            0.0,
+            151810.81,
+            303621.62,
+            151810.81,
+            303621.62,
+            0.0,
+            0.0
+          ],
+          "total": 910864.86
+        },
+        {
+          "name": "Masterista Avocado Base 800Gr",
+          "category": "Beverage",
+          "monthly": [
+            0.0,
+            0.0,
+            141000.0,
+            141000.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "total": 282000.0
+        }
+      ],
+      "total": 1192864.8599999999,
+      "rank": 63,
+      "pct_of_total": 0.03523949628081528,
+      "product_count": 2,
+      "status": "churned",
+      "mom_pct": -100.0,
+      "last_active_month": "June",
       "cls": "C"
     },
     {
@@ -7883,7 +7913,7 @@
       ],
       "total": 1104000.0,
       "rank": 64,
-      "pct_of_total": 0.03288005180201659,
+      "pct_of_total": 0.03261425933363489,
       "product_count": 1,
       "status": "churned",
       "mom_pct": null,
@@ -7981,7 +8011,7 @@
       ],
       "total": 843612.61,
       "rank": 65,
-      "pct_of_total": 0.025125023838436976,
+      "pct_of_total": 0.024921920688101982,
       "product_count": 5,
       "status": "churned",
       "mom_pct": -100.0,
@@ -8079,7 +8109,7 @@
       ],
       "total": 693857.215495,
       "rank": 66,
-      "pct_of_total": 0.020664910496991477,
+      "pct_of_total": 0.020497861564010615,
       "product_count": 5,
       "status": "churned",
       "mom_pct": null,
@@ -8101,7 +8131,7 @@
       "products": [
         {
           "name": "Tepung Double Zero @25Kg/Sack",
-          "category": "Flour Sriboga",
+          "category": "Bakery",
           "monthly": [
             590000.0,
             0.0,
@@ -8117,7 +8147,7 @@
       ],
       "total": 590000.0,
       "rank": 67,
-      "pct_of_total": 0.017571766814483504,
+      "pct_of_total": 0.017429721926489658,
       "product_count": 1,
       "status": "churned",
       "mom_pct": null,
@@ -8170,7 +8200,7 @@
       ],
       "total": 565315.27,
       "rank": 68,
-      "pct_of_total": 0.016836590001875904,
+      "pct_of_total": 0.0167004880625397,
       "product_count": 2,
       "status": "churned",
       "mom_pct": -100.0,
@@ -8253,7 +8283,7 @@
       ],
       "total": 423783.989999,
       "rank": 69,
-      "pct_of_total": 0.01262141263046413,
+      "pct_of_total": 0.01251938491962855,
       "product_count": 4,
       "status": "churned",
       "mom_pct": -100.0,
@@ -8351,7 +8381,7 @@
       ],
       "total": 409112.619999,
       "rank": 70,
-      "pct_of_total": 0.01218446027031327,
+      "pct_of_total": 0.012085964751186782,
       "product_count": 5,
       "status": "churned",
       "mom_pct": -100.0,
@@ -8404,7 +8434,7 @@
       ],
       "total": 364864.859994,
       "rank": 71,
-      "pct_of_total": 0.010866644472226678,
+      "pct_of_total": 0.010778801780411866,
       "product_count": 2,
       "status": "churned",
       "mom_pct": null,
@@ -8457,7 +8487,7 @@
       ],
       "total": 246283.78,
       "rank": 72,
-      "pct_of_total": 0.0073349850039822985,
+      "pct_of_total": 0.007275691187126705,
       "product_count": 2,
       "status": "churned",
       "mom_pct": null,
@@ -8495,7 +8525,7 @@
       ],
       "total": 214400.0,
       "rank": 73,
-      "pct_of_total": 0.006385401364449599,
+      "pct_of_total": 0.00633378369667692,
       "product_count": 1,
       "status": "churned",
       "mom_pct": null,
@@ -8548,7 +8578,7 @@
       ],
       "total": 197108.109999,
       "rank": 74,
-      "pct_of_total": 0.005870402959569479,
+      "pct_of_total": 0.005822948384302553,
       "product_count": 2,
       "status": "new",
       "mom_pct": null,
@@ -8601,7 +8631,7 @@
       ],
       "total": 83936.94,
       "rank": 75,
-      "pct_of_total": 0.0024998649776293105,
+      "pct_of_total": 0.002479656819593978,
       "product_count": 2,
       "status": "churned",
       "mom_pct": null,
@@ -8623,7 +8653,7 @@
       "products": [
         {
           "name": "Tepung Double Zero 1kg/pack",
-          "category": "Flour Sriboga",
+          "category": "Bakery",
           "monthly": [
             0.0,
             0.0,
@@ -8638,7 +8668,7 @@
         },
         {
           "name": "Tepung Hime 1kg/pack",
-          "category": "Flour Sriboga",
+          "category": "Bakery",
           "monthly": [
             0.0,
             0.0,
@@ -8654,7 +8684,7 @@
       ],
       "total": 61000.0,
       "rank": 76,
-      "pct_of_total": 0.0018167419926838878,
+      "pct_of_total": 0.0018020559957896089,
       "product_count": 2,
       "status": "churned",
       "mom_pct": null,
@@ -8709,7 +8739,7 @@
       ],
       "total": 28107960.0,
       "rank": 23,
-      "pct_of_total": 0.8371296927980165,
+      "pct_of_total": 0.8303625876625327,
       "product_count": 2,
       "status": "churned",
       "mom_pct": null,
@@ -8776,7 +8806,7 @@
         },
         {
           "name": "Gold Box Melange Butter MP331 5 Kg",
-          "category": "Dairy",
+          "category": "Bakery",
           "monthly": [
             0.0,
             0.0,
@@ -8792,7 +8822,7 @@
       ],
       "total": 8854493.867537,
       "rank": 31,
-      "pct_of_total": 0.2637103415264989,
+      "pct_of_total": 0.261578586289793,
       "product_count": 4,
       "status": "churned",
       "mom_pct": -100.0,
@@ -8875,7 +8905,7 @@
       ],
       "total": 7190991.189997999,
       "rank": 34,
-      "pct_of_total": 0.2141668141621188,
+      "pct_of_total": 0.21243555392796964,
       "product_count": 4,
       "status": "churned",
       "mom_pct": null,
@@ -8927,7 +8957,7 @@
         },
         {
           "name": "Tepung Beruang Emas 1Kg/Pack - Sample",
-          "category": "Flour Sriboga",
+          "category": "Bakery",
           "monthly": [
             0.0,
             0.0,
@@ -8971,7 +9001,7 @@
           "total": 1600000.0
         },
         {
-          "name": "Masterista Syrup Pistachio 850 Ml",
+          "name": "Masterista Syrup Classic Caramel 850ml",
           "category": "Beverage",
           "monthly": [
             0.0,
@@ -8986,7 +9016,7 @@
           "total": 99099.1
         },
         {
-          "name": "Masterista Syrup Classic Caramel 850ml",
+          "name": "Masterista Syrup Pistachio 850 Ml",
           "category": "Beverage",
           "monthly": [
             0.0,
@@ -9123,7 +9153,7 @@
       ],
       "total": 5683013.510000002,
       "rank": 39,
-      "pct_of_total": 0.1692552342394567,
+      "pct_of_total": 0.1678870257352271,
       "product_count": 15,
       "status": "churned",
       "mom_pct": -100.0,
@@ -9191,7 +9221,7 @@
       ],
       "total": 2220270.33,
       "rank": 55,
-      "pct_of_total": 0.06612554661673956,
+      "pct_of_total": 0.06559100754836514,
       "product_count": 3,
       "status": "churned",
       "mom_pct": null,
@@ -9259,7 +9289,7 @@
       ],
       "total": 1761261.1899990002,
       "rank": 58,
-      "pct_of_total": 0.052455035474681624,
+      "pct_of_total": 0.0520310047145777,
       "product_count": 3,
       "status": "churned",
       "mom_pct": -100.0,
@@ -9312,7 +9342,7 @@
       ],
       "total": 1432432.44,
       "rank": 60,
-      "pct_of_total": 0.04266164205624006,
+      "pct_of_total": 0.0423167781486154,
       "product_count": 2,
       "status": "churned",
       "mom_pct": null,
@@ -9364,8 +9394,8 @@
         }
       ],
       "total": 1192864.8599999999,
-      "rank": 62,
-      "pct_of_total": 0.03552668332391781,
+      "rank": 63,
+      "pct_of_total": 0.03523949628081528,
       "product_count": 2,
       "status": "churned",
       "mom_pct": -100.0,
@@ -9403,7 +9433,7 @@
       ],
       "total": 1104000.0,
       "rank": 64,
-      "pct_of_total": 0.03288005180201659,
+      "pct_of_total": 0.03261425933363489,
       "product_count": 1,
       "status": "churned",
       "mom_pct": null,
@@ -9501,7 +9531,7 @@
       ],
       "total": 843612.61,
       "rank": 65,
-      "pct_of_total": 0.025125023838436976,
+      "pct_of_total": 0.024921920688101982,
       "product_count": 5,
       "status": "churned",
       "mom_pct": -100.0,
@@ -9599,7 +9629,7 @@
       ],
       "total": 693857.215495,
       "rank": 66,
-      "pct_of_total": 0.020664910496991477,
+      "pct_of_total": 0.020497861564010615,
       "product_count": 5,
       "status": "churned",
       "mom_pct": null,
@@ -9621,7 +9651,7 @@
       "products": [
         {
           "name": "Tepung Double Zero @25Kg/Sack",
-          "category": "Flour Sriboga",
+          "category": "Bakery",
           "monthly": [
             590000.0,
             0.0,
@@ -9637,7 +9667,7 @@
       ],
       "total": 590000.0,
       "rank": 67,
-      "pct_of_total": 0.017571766814483504,
+      "pct_of_total": 0.017429721926489658,
       "product_count": 1,
       "status": "churned",
       "mom_pct": null,
@@ -9690,7 +9720,7 @@
       ],
       "total": 565315.27,
       "rank": 68,
-      "pct_of_total": 0.016836590001875904,
+      "pct_of_total": 0.0167004880625397,
       "product_count": 2,
       "status": "churned",
       "mom_pct": -100.0,
@@ -9773,7 +9803,7 @@
       ],
       "total": 423783.989999,
       "rank": 69,
-      "pct_of_total": 0.01262141263046413,
+      "pct_of_total": 0.01251938491962855,
       "product_count": 4,
       "status": "churned",
       "mom_pct": -100.0,
@@ -9871,7 +9901,7 @@
       ],
       "total": 409112.619999,
       "rank": 70,
-      "pct_of_total": 0.01218446027031327,
+      "pct_of_total": 0.012085964751186782,
       "product_count": 5,
       "status": "churned",
       "mom_pct": -100.0,
@@ -9924,7 +9954,7 @@
       ],
       "total": 364864.859994,
       "rank": 71,
-      "pct_of_total": 0.010866644472226678,
+      "pct_of_total": 0.010778801780411866,
       "product_count": 2,
       "status": "churned",
       "mom_pct": null,
@@ -9977,7 +10007,7 @@
       ],
       "total": 246283.78,
       "rank": 72,
-      "pct_of_total": 0.0073349850039822985,
+      "pct_of_total": 0.007275691187126705,
       "product_count": 2,
       "status": "churned",
       "mom_pct": null,
@@ -10015,7 +10045,7 @@
       ],
       "total": 214400.0,
       "rank": 73,
-      "pct_of_total": 0.006385401364449599,
+      "pct_of_total": 0.00633378369667692,
       "product_count": 1,
       "status": "churned",
       "mom_pct": null,
@@ -10068,7 +10098,7 @@
       ],
       "total": 83936.94,
       "rank": 75,
-      "pct_of_total": 0.0024998649776293105,
+      "pct_of_total": 0.002479656819593978,
       "product_count": 2,
       "status": "churned",
       "mom_pct": null,
@@ -10090,7 +10120,7 @@
       "products": [
         {
           "name": "Tepung Double Zero 1kg/pack",
-          "category": "Flour Sriboga",
+          "category": "Bakery",
           "monthly": [
             0.0,
             0.0,
@@ -10105,7 +10135,7 @@
         },
         {
           "name": "Tepung Hime 1kg/pack",
-          "category": "Flour Sriboga",
+          "category": "Bakery",
           "monthly": [
             0.0,
             0.0,
@@ -10121,7 +10151,7 @@
       ],
       "total": 61000.0,
       "rank": 76,
-      "pct_of_total": 0.0018167419926838878,
+      "pct_of_total": 0.0018020559957896089,
       "product_count": 2,
       "status": "churned",
       "mom_pct": null,
@@ -10140,12 +10170,12 @@
         7680000.0,
         11200000.0,
         7360000.0,
-        4800000.0
+        4830000.0
       ],
       "products": [
         {
           "name": "Tepung Hime @25Kg/Sack",
-          "category": "Flour Sriboga",
+          "category": "Bakery",
           "monthly": [
             8960000.0,
             7680000.0,
@@ -10157,12 +10187,27 @@
             4800000.0
           ],
           "total": 67520000.0
+        },
+        {
+          "name": "Amron Topside - Sampel",
+          "category": "Other",
+          "monthly": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            30000.0
+          ],
+          "total": 30000.0
         }
       ],
-      "total": 67520000.0,
+      "total": 67550000.0,
       "rank": 10,
-      "pct_of_total": 2.0109249073117392,
-      "product_count": 1,
+      "pct_of_total": 1.9955554510752145,
+      "product_count": 2,
       "status": "flat",
       "mom_pct": -34.3,
       "last_active_month": "August*",
@@ -10178,12 +10223,12 @@
         6195000.0,
         5015000.0,
         6195000.0,
-        2655000.0
+        4425000.0
       ],
       "products": [
         {
           "name": "Tepung Double Zero @25Kg/Sack",
-          "category": "Flour Sriboga",
+          "category": "Bakery",
           "monthly": [
             6195000.0,
             5900000.0,
@@ -10192,13 +10237,13 @@
             6195000.0,
             5015000.0,
             6195000.0,
-            2655000.0
+            4425000.0
           ],
-          "total": 42480000.0
+          "total": 44250000.0
         },
         {
           "name": "Tepung 00 Fusion @25Kg",
-          "category": "Flour Sriboga",
+          "category": "Bakery",
           "monthly": [
             0.0,
             0.0,
@@ -10212,9 +10257,9 @@
           "total": 1475000.0
         }
       ],
-      "total": 43955000.0,
+      "total": 45725000.0,
       "rank": 16,
-      "pct_of_total": 1.309096627679021,
+      "pct_of_total": 1.3508034493029486,
       "product_count": 2,
       "status": "flat",
       "mom_pct": 23.5,
@@ -10236,7 +10281,7 @@
       "products": [
         {
           "name": "Tepung Double Zero @25Kg/Sack",
-          "category": "Flour Sriboga",
+          "category": "Bakery",
           "monthly": [
             7441441.56,
             4252252.32,
@@ -10252,7 +10297,7 @@
       ],
       "total": 39936937.92,
       "rank": 18,
-      "pct_of_total": 1.189428068499566,
+      "pct_of_total": 1.1798130890526786,
       "product_count": 1,
       "status": "growing",
       "mom_pct": 34.6,
@@ -10289,7 +10334,7 @@
         },
         {
           "name": "Tepung Double Zero @25Kg/Sack",
-          "category": "Flour Sriboga",
+          "category": "Bakery",
           "monthly": [
             1171171.159996,
             585585.579998,
@@ -10305,7 +10350,7 @@
       ],
       "total": 13986098.119972,
       "rank": 26,
-      "pct_of_total": 0.41654314374344764,
+      "pct_of_total": 0.4131759340130708,
       "product_count": 2,
       "status": "growing",
       "mom_pct": 12.0,
@@ -10358,7 +10403,7 @@
       ],
       "total": 12987744.413995,
       "rank": 27,
-      "pct_of_total": 0.3868095191336116,
+      "pct_of_total": 0.3836826670987326,
       "product_count": 2,
       "status": "growing",
       "mom_pct": -47.4,
@@ -10411,7 +10456,7 @@
       ],
       "total": 10443405.5,
       "rank": 29,
-      "pct_of_total": 0.31103234948321107,
+      "pct_of_total": 0.30851805733995374,
       "product_count": 2,
       "status": "new",
       "mom_pct": 0.0,
@@ -10464,7 +10509,7 @@
       ],
       "total": 9820864.86,
       "rank": 30,
-      "pct_of_total": 0.2924914359940258,
+      "pct_of_total": 0.2901270230295488,
       "product_count": 2,
       "status": "growing",
       "mom_pct": -33.8,
@@ -10486,7 +10531,7 @@
       "products": [
         {
           "name": "Tepung Double Zero @25Kg/Sack",
-          "category": "Flour Sriboga",
+          "category": "Bakery",
           "monthly": [
             0.0,
             0.0,
@@ -10502,7 +10547,7 @@
       ],
       "total": 7375000.0,
       "rank": 33,
-      "pct_of_total": 0.2196470851810438,
+      "pct_of_total": 0.21787152408112076,
       "product_count": 1,
       "status": "growing",
       "mom_pct": -50.0,
@@ -10524,7 +10569,7 @@
       "products": [
         {
           "name": "Tepung Double Zero @25Kg/Sack",
-          "category": "Flour Sriboga",
+          "category": "Bakery",
           "monthly": [
             885000.0,
             1180000.0,
@@ -10540,7 +10585,7 @@
       ],
       "total": 6785000.0,
       "rank": 35,
-      "pct_of_total": 0.2020753183665603,
+      "pct_of_total": 0.2004418021546311,
       "product_count": 1,
       "status": "declining",
       "mom_pct": -50.0,
@@ -10593,63 +10638,10 @@
       ],
       "total": 5869500.044,
       "rank": 38,
-      "pct_of_total": 0.17480929845892995,
+      "pct_of_total": 0.17339619256684546,
       "product_count": 2,
       "status": "flat",
       "mom_pct": -50.6,
-      "last_active_month": "August*",
-      "cls": "C"
-    },
-    {
-      "name": "THE OBEROI",
-      "monthly": [
-        270270.27,
-        0.0,
-        810810.81,
-        270270.27,
-        540540.54,
-        1351351.35,
-        540540.54,
-        1130540.54
-      ],
-      "products": [
-        {
-          "name": "Tepung Hime @25Kg/Sack",
-          "category": "Flour Sriboga",
-          "monthly": [
-            270270.27,
-            0.0,
-            810810.81,
-            270270.27,
-            540540.54,
-            1351351.35,
-            540540.54,
-            540540.54
-          ],
-          "total": 4324324.32
-        },
-        {
-          "name": "Tepung Double Zero @25Kg/Sack",
-          "category": "Flour Sriboga",
-          "monthly": [
-            0.0,
-            0.0,
-            0.0,
-            0.0,
-            0.0,
-            0.0,
-            0.0,
-            590000.0
-          ],
-          "total": 590000.0
-        }
-      ],
-      "total": 4914324.32,
-      "rank": 42,
-      "pct_of_total": 0.14636162881658513,
-      "product_count": 2,
-      "status": "growing",
-      "mom_pct": -60.0,
       "last_active_month": "August*",
       "cls": "C"
     },
@@ -10668,7 +10660,7 @@
       "products": [
         {
           "name": "Tepung Double Zero @25Kg/Sack",
-          "category": "Flour Sriboga",
+          "category": "Bakery",
           "monthly": [
             567567.56,
             851351.34,
@@ -10698,12 +10690,50 @@
         }
       ],
       "total": 4554054.000000001,
-      "rank": 43,
-      "pct_of_total": 0.13563182194672183,
+      "rank": 42,
+      "pct_of_total": 0.13453541501392874,
       "product_count": 2,
       "status": "declining",
       "mom_pct": -50.0,
       "last_active_month": "July",
+      "cls": "C"
+    },
+    {
+      "name": "BALI DYNASTY RESORT",
+      "monthly": [
+        0.0,
+        504504.5,
+        504504.5,
+        1009009.0,
+        0.0,
+        1009009.0,
+        1009009.0,
+        504504.5
+      ],
+      "products": [
+        {
+          "name": "Inofa Heat Treated Wheat Flour SF 346 @25kg/sack",
+          "category": "Flour Mip",
+          "monthly": [
+            0.0,
+            504504.5,
+            504504.5,
+            1009009.0,
+            0.0,
+            1009009.0,
+            1009009.0,
+            504504.5
+          ],
+          "total": 4540540.5
+        }
+      ],
+      "total": 4540540.5,
+      "rank": 43,
+      "pct_of_total": 0.13413620052705819,
+      "product_count": 1,
+      "status": "growing",
+      "mom_pct": 0.0,
+      "last_active_month": "August*",
       "cls": "C"
     },
     {
@@ -10721,7 +10751,7 @@
       "products": [
         {
           "name": "Tepung Yokozuna 1kg/pack",
-          "category": "Flour Sriboga",
+          "category": "Bakery",
           "monthly": [
             280000.0,
             0.0,
@@ -10752,7 +10782,7 @@
       ],
       "total": 4483000.0,
       "rank": 44,
-      "pct_of_total": 0.13351564513445688,
+      "pct_of_total": 0.1324363447397511,
       "product_count": 2,
       "status": "growing",
       "mom_pct": -55.0,
@@ -10760,41 +10790,56 @@
       "cls": "C"
     },
     {
-      "name": "BALI DYNASTY RESORT",
+      "name": "THE OBEROI",
       "monthly": [
+        270270.27,
         0.0,
-        504504.5,
-        504504.5,
-        1009009.0,
-        0.0,
-        1009009.0,
-        1009009.0,
-        0.0
+        810810.81,
+        270270.27,
+        540540.54,
+        1351351.35,
+        540540.54,
+        540540.54
       ],
       "products": [
         {
-          "name": "Inofa Heat Treated Wheat Flour SF 346 @25kg/sack",
-          "category": "Flour Mip",
+          "name": "Tepung Hime @25Kg/Sack",
+          "category": "Bakery",
+          "monthly": [
+            270270.27,
+            0.0,
+            810810.81,
+            270270.27,
+            540540.54,
+            1351351.35,
+            540540.54,
+            540540.54
+          ],
+          "total": 4324324.32
+        },
+        {
+          "name": "Tepung Double Zero @25Kg/Sack",
+          "category": "Bakery",
           "monthly": [
             0.0,
-            504504.5,
-            504504.5,
-            1009009.0,
             0.0,
-            1009009.0,
-            1009009.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
             0.0
           ],
-          "total": 4036036.0
+          "total": 0.0
         }
       ],
-      "total": 4036036.0,
+      "total": 4324324.32,
       "rank": 46,
-      "pct_of_total": 0.12020387024891653,
-      "product_count": 1,
+      "pct_of_total": 0.12774876341958727,
+      "product_count": 2,
       "status": "growing",
-      "mom_pct": 0.0,
-      "last_active_month": "July",
+      "mom_pct": -60.0,
+      "last_active_month": "August*",
       "cls": "C"
     },
     {
@@ -10812,7 +10857,7 @@
       "products": [
         {
           "name": "Tepung Double Zero @25Kg/Sack",
-          "category": "Flour Sriboga",
+          "category": "Bakery",
           "monthly": [
             295000.0,
             295000.0,
@@ -10843,7 +10888,7 @@
       ],
       "total": 3253783.7800000003,
       "rank": 49,
-      "pct_of_total": 0.09690632177442153,
+      "pct_of_total": 0.09612296015986849,
       "product_count": 2,
       "status": "growing",
       "mom_pct": 100.0,
@@ -10896,7 +10941,7 @@
       ],
       "total": 3125871.6209939998,
       "rank": 50,
-      "pct_of_total": 0.09309675799342056,
+      "pct_of_total": 0.09234419174886592,
       "product_count": 2,
       "status": "declining",
       "mom_pct": 100.0,
@@ -10949,7 +10994,7 @@
       ],
       "total": 3070270.75,
       "rank": 51,
-      "pct_of_total": 0.09144081640055828,
+      "pct_of_total": 0.09070163629073703,
       "product_count": 2,
       "status": "new",
       "mom_pct": 15.2,
@@ -10971,7 +11016,7 @@
       "products": [
         {
           "name": "Tepung Double Zero @25Kg/Sack",
-          "category": "Flour Sriboga",
+          "category": "Bakery",
           "monthly": [
             295000.0,
             0.0,
@@ -11002,7 +11047,7 @@
       ],
       "total": 2220000.0,
       "rank": 56,
-      "pct_of_total": 0.06611749547144641,
+      "pct_of_total": 0.06558302148611363,
       "product_count": 2,
       "status": "declining",
       "mom_pct": -43.3,
@@ -11024,7 +11069,7 @@
       "products": [
         {
           "name": "Tepung Stupa Emas 25 Kg",
-          "category": "Flour Sriboga",
+          "category": "Bakery",
           "monthly": [
             414000.0,
             0.0,
@@ -11040,7 +11085,7 @@
       ],
       "total": 1656000.0,
       "rank": 59,
-      "pct_of_total": 0.04932007770302489,
+      "pct_of_total": 0.048921389000452335,
       "product_count": 1,
       "status": "declining",
       "mom_pct": null,
@@ -11093,7 +11138,7 @@
       ],
       "total": 197108.109999,
       "rank": 74,
-      "pct_of_total": 0.005870402959569479,
+      "pct_of_total": 0.005822948384302553,
       "product_count": 2,
       "status": "new",
       "mom_pct": null,
@@ -11104,8 +11149,8 @@
   "products": [
     {
       "name": "Tepung Double Zero @25Kg/Sack",
-      "category": "Flour Sriboga",
-      "total": 646558292.959722,
+      "category": "Bakery",
+      "total": 661950004.959702,
       "customer_count": 20
     },
     {
@@ -11128,13 +11173,13 @@
     },
     {
       "name": "Australian Butter Unsalted",
-      "category": "Dairy",
-      "total": 211824098.24857503,
+      "category": "Bakery",
+      "total": 215540310.49855003,
       "customer_count": 1
     },
     {
       "name": "Tepung Hime @25Kg/Sack",
-      "category": "Flour Sriboga",
+      "category": "Bakery",
       "total": 126506846.51982099,
       "customer_count": 5
     },
@@ -11147,19 +11192,19 @@
     {
       "name": "Bergold Mozzarella Block",
       "category": "Dairy",
-      "total": 92870446.78468801,
+      "total": 93239671.98948401,
       "customer_count": 6
     },
     {
       "name": "O Sole Pomodori Pelati Peeled Tomatoes 2.5Kg",
       "category": "Dry Goods",
-      "total": 76150722.63938501,
+      "total": 77577749.679367,
       "customer_count": 7
     },
     {
       "name": "Tepung Ninja @25Kg/Sack",
-      "category": "Flour Sriboga",
-      "total": 68349099.7,
+      "category": "Bakery",
+      "total": 70871622.30000001,
       "customer_count": 2
     },
     {
@@ -11183,7 +11228,7 @@
     {
       "name": "Premium Straight Cut 2Kg",
       "category": "Frozen Fries",
-      "total": 56108103.900000006,
+      "total": 56270266.05,
       "customer_count": 2
     },
     {
@@ -11195,7 +11240,7 @@
     {
       "name": "Masterista Ceremonial Pure Matcha Powder 500 Gr",
       "category": "Beverage",
-      "total": 41680000.0,
+      "total": 42480000.0,
       "customer_count": 4
     },
     {
@@ -11217,16 +11262,16 @@
       "customer_count": 2
     },
     {
+      "name": "THE ALTERNATIVE Barista Almond Milk 1 Lt",
+      "category": "Beverage",
+      "total": 31960423.389939,
+      "customer_count": 7
+    },
+    {
       "name": "LEMONGRASS GINGER @250 GR",
       "category": "Beverage",
       "total": 31813157.8,
       "customer_count": 1
-    },
-    {
-      "name": "THE ALTERNATIVE Barista Almond Milk 1 Lt",
-      "category": "Beverage",
-      "total": 31459923.389939,
-      "customer_count": 7
     },
     {
       "name": "Tepung Japanese Tempura 1kg/pack",
@@ -11243,7 +11288,7 @@
     {
       "name": "IQF FF Shoestring 2.5 Kg/Pack",
       "category": "Frozen Fries",
-      "total": 17454952.49,
+      "total": 17572069.589999996,
       "customer_count": 2
     },
     {
@@ -11301,6 +11346,12 @@
       "customer_count": 1
     },
     {
+      "name": "Inofa Heat Treated Wheat Flour SF 346 @25kg/sack",
+      "category": "Flour Mip",
+      "total": 10780540.5,
+      "customer_count": 3
+    },
+    {
       "name": "Ice Shaken Orange Punch 1 Kg",
       "category": "Beverage",
       "total": 10771409.919971999,
@@ -11311,12 +11362,6 @@
       "category": "Beverage",
       "total": 10692000.0,
       "customer_count": 4
-    },
-    {
-      "name": "Inofa Heat Treated Wheat Flour SF 346 @25kg/sack",
-      "category": "Flour Mip",
-      "total": 10276036.0,
-      "customer_count": 3
     },
     {
       "name": "Masterista Syrup Strawberry 850 Ml",
@@ -11391,6 +11436,12 @@
       "customer_count": 3
     },
     {
+      "name": "Tepung Easymix Fish n Chips 1kg/pack",
+      "category": "Flour Mip",
+      "total": 7252251.89977,
+      "customer_count": 1
+    },
+    {
       "name": "Masterista Syrup Grenadine 850 Ml",
       "category": "Beverage",
       "total": 7168288.287928,
@@ -11404,7 +11455,7 @@
     },
     {
       "name": "Tepung 00 Fusion @25Kg",
-      "category": "Flour Sriboga",
+      "category": "Bakery",
       "total": 6969774.77,
       "customer_count": 5
     },
@@ -11415,15 +11466,9 @@
       "customer_count": 2
     },
     {
-      "name": "Tepung Easymix Fish n Chips 1kg/pack",
-      "category": "Flour Mip",
-      "total": 6306305.9998,
-      "customer_count": 1
-    },
-    {
       "name": "Arass English Breakfast Tea 100 Tb",
       "category": "Other",
-      "total": 6118918.689894,
+      "total": 6291891.64989,
       "customer_count": 3
     },
     {
@@ -11446,7 +11491,7 @@
     },
     {
       "name": "Gold Box Melange Butter MP331 5 Kg",
-      "category": "Dairy",
+      "category": "Bakery",
       "total": 5713953.077538,
       "customer_count": 1
     },
@@ -11464,9 +11509,15 @@
     },
     {
       "name": "Tepung Double Zero 1kg/pack",
-      "category": "Flour Sriboga",
+      "category": "Bakery",
       "total": 5110675.19988,
       "customer_count": 6
+    },
+    {
+      "name": "Masterista Syrup Passion Fruit 850 Ml",
+      "category": "Beverage",
+      "total": 5063063.059945999,
+      "customer_count": 3
     },
     {
       "name": "Chamomile Dream @250gr",
@@ -11478,12 +11529,6 @@
       "name": "Arass Green Tea 100 Tb",
       "category": "Other",
       "total": 5016216.319932,
-      "customer_count": 2
-    },
-    {
-      "name": "Masterista Syrup Passion Fruit 850 Ml",
-      "category": "Beverage",
-      "total": 4963963.959945999,
       "customer_count": 2
     },
     {
@@ -11609,7 +11654,7 @@
     {
       "name": "Masterista Frappe Base 800 Gr",
       "category": "Beverage",
-      "total": 3178378.279972,
+      "total": 3291891.789971,
       "customer_count": 3
     },
     {
@@ -11667,6 +11712,12 @@
       "customer_count": 2
     },
     {
+      "name": "O Sole Doppio Concentrato Paste Tomato 2.2 Kg",
+      "category": "Dry Goods",
+      "total": 2017117.09,
+      "customer_count": 4
+    },
+    {
       "name": "Ice Shaken Blackcurrant Punch 1 Kg",
       "category": "Beverage",
       "total": 1998000.0,
@@ -11685,12 +11736,6 @@
       "customer_count": 2
     },
     {
-      "name": "O Sole Doppio Concentrato Paste Tomato 2.2 Kg",
-      "category": "Dry Goods",
-      "total": 1904504.48,
-      "customer_count": 4
-    },
-    {
       "name": "Premium Straight Cut 4x2.5Kg",
       "category": "Other",
       "total": 1891891.89,
@@ -11698,7 +11743,7 @@
     },
     {
       "name": "Tepung Stupa Emas 25 Kg",
-      "category": "Flour Sriboga",
+      "category": "Bakery",
       "total": 1863000.0,
       "customer_count": 2
     },
@@ -11716,7 +11761,7 @@
     },
     {
       "name": "Gold Box Extra Butter MP341 5 Kg",
-      "category": "Dairy",
+      "category": "Bakery",
       "total": 1701621.6513999999,
       "customer_count": 1
     },
@@ -11758,7 +11803,7 @@
     },
     {
       "name": "Tepung Yokozuna 1kg/pack",
-      "category": "Flour Sriboga",
+      "category": "Bakery",
       "total": 1540000.0,
       "customer_count": 1
     },
@@ -11799,14 +11844,20 @@
       "customer_count": 1
     },
     {
+      "name": "Crr Rock'n Waffle Fries 2.5 Kg",
+      "category": "Frozen Fries",
+      "total": 1135135.17,
+      "customer_count": 1
+    },
+    {
       "name": "Tepung Pita Emas @25Kg/Sack",
-      "category": "Flour Sriboga",
+      "category": "Bakery",
       "total": 1126126.1500000001,
       "customer_count": 1
     },
     {
       "name": "Tepung Hime 1kg/pack",
-      "category": "Flour Sriboga",
+      "category": "Bakery",
       "total": 1112080.75,
       "customer_count": 2
     },
@@ -11854,7 +11905,7 @@
     },
     {
       "name": "Tepung Beruang Emas @25Kg/Sack",
-      "category": "Flour Sriboga",
+      "category": "Bakery",
       "total": 879279.28,
       "customer_count": 1
     },
@@ -11868,12 +11919,6 @@
       "name": "Flavorista Coffee Classic 250 Gr",
       "category": "Beverage",
       "total": 832000.0,
-      "customer_count": 1
-    },
-    {
-      "name": "Crr Rock'n Waffle Fries 2.5 Kg",
-      "category": "Frozen Fries",
-      "total": 756756.78,
       "customer_count": 1
     },
     {
@@ -12088,13 +12133,13 @@
     },
     {
       "name": "Tepung Beruang Emas 1Kg/Pack - Sample",
-      "category": "Flour Sriboga",
+      "category": "Bakery",
       "total": 72000.0,
       "customer_count": 2
     },
     {
       "name": "Gold Box Extra Butter MP341 250gr - Sample",
-      "category": "Other",
+      "category": "Bakery",
       "total": 68000.0,
       "customer_count": 2
     },
@@ -12103,6 +12148,12 @@
       "category": "Other",
       "total": 65000.0,
       "customer_count": 3
+    },
+    {
+      "name": "Amron Topside - Sampel",
+      "category": "Other",
+      "total": 60000.0,
+      "customer_count": 2
     },
     {
       "name": "Masterista Sweet Sauce Butterscotch 500 Ml",
@@ -12124,7 +12175,7 @@
     },
     {
       "name": "Tepung Stupa Emas 1Kg",
-      "category": "Other",
+      "category": "Bakery",
       "total": 41400.0,
       "customer_count": 1
     },
@@ -12159,12 +12210,6 @@
       "customer_count": 1
     },
     {
-      "name": "Amron Topside - Sampel",
-      "category": "Other",
-      "total": 30000.0,
-      "customer_count": 1
-    },
-    {
       "name": "Block Red Cheddar Mix Cheese 5x2kg - 200gr Sample",
       "category": "Dairy",
       "total": 27027.029999,
@@ -12184,7 +12229,7 @@
     },
     {
       "name": "Tepung Ninja Fusion Pao 1Kg",
-      "category": "Flour Sriboga",
+      "category": "Bakery",
       "total": 23000.0,
       "customer_count": 1
     },
@@ -12226,7 +12271,7 @@
     },
     {
       "name": "Tepung Pita Emas 1Kg/Pack - Sample",
-      "category": "Flour Sriboga",
+      "category": "Bakery",
       "total": 12000.0,
       "customer_count": 1
     },
@@ -12261,32 +12306,32 @@
       "total": 1141159087.2
     },
     {
-      "category": "Flour Sriboga",
-      "total": 860122175.329423
+      "category": "Bakery",
+      "total": 1101101695.156891
     },
     {
       "category": "Beverage",
-      "total": 529169764.75369614
+      "total": 530682877.36369514
     },
     {
       "category": "Dairy",
-      "total": 457716855.1404362
+      "total": 238846407.36771902
     },
     {
       "category": "Frozen Fries",
-      "total": 183160353.79986298
+      "total": 183818011.43986297
     },
     {
       "category": "Dry Goods",
-      "total": 91928799.08917403
+      "total": 93468438.73915602
     },
     {
       "category": "Flour Mip",
-      "total": 51712138.719799
+      "total": 53162589.119769
     },
     {
       "category": "Other",
-      "total": 36287967.925822005
+      "total": 36381540.885818005
     },
     {
       "category": "Frozen Sea Food",
@@ -12297,22 +12342,22 @@
     {
       "cls": "A",
       "accs": 12,
-      "rev": 2679431168,
-      "pct": 79.8005757335478,
+      "rev": 2703112408,
+      "pct": 79.85508068323543,
       "strat": "Top tier — Protect & Grow"
     },
     {
       "cls": "B",
       "accs": 15,
-      "rev": 505784884,
-      "pct": 15.063617007632338,
+      "rev": 509317046,
+      "pct": 15.046194036311263,
       "strat": "Middle — Upsell"
     },
     {
       "cls": "C",
       "accs": 49,
-      "rev": 172442892,
-      "pct": 5.135807258819831,
+      "rev": 172592995,
+      "pct": 5.098725280453283,
       "strat": "Long tail — Review"
     }
   ],
@@ -12322,21 +12367,21 @@
       "name": "DISCOVERY KARTIKA PLAZA HOTEL",
       "cls": "A",
       "product_count": 4,
-      "total": 145754056
+      "total": 150979282
     },
     {
       "rank": 2,
       "name": "MAMAKA",
       "cls": "A",
       "product_count": 5,
-      "total": 140356199
+      "total": 140720199
     },
     {
       "rank": 3,
       "name": "PT. TIBI MODERN SENTOSA (AMNAYA HOTEL)",
       "cls": "A",
-      "product_count": 1,
-      "total": 67520000
+      "product_count": 2,
+      "total": 67550000
     },
     {
       "rank": 4,
