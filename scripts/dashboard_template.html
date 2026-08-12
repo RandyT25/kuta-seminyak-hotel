@@ -170,11 +170,15 @@
   .axis-label { font-size: 11px; fill: var(--ink-3); font-family: inherit; }
   .grid-line { stroke: var(--border); stroke-width: 1; }
   .trend-line { fill: none; stroke: var(--accent); stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+  .trend-line-partial { fill: none; stroke: var(--accent); stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; stroke-dasharray: 6 4; }
   .trend-area { fill: var(--accent); opacity: 0.10; }
   .trend-dot { fill: var(--accent); stroke: var(--surface); stroke-width: 1.5; }
+  .trend-dot-partial { fill: var(--surface); stroke: var(--accent); stroke-width: 2; }
   .target-line { stroke: var(--secondary); stroke-width: 1.6; stroke-dasharray: 5 4; fill: none; }
   .target-label { font-size: 11.5px; fill: var(--secondary); font-weight: 600; }
   .hover-dot { fill: var(--accent); stroke: var(--surface); stroke-width: 2; }
+  .hover-dot.partial { fill: var(--surface); }
+  .tooltip-mtd { opacity: 0.7; font-size: 0.9em; }
   .hover-guide { stroke: var(--ink-3); stroke-width: 1; stroke-dasharray: 2 3; }
   .hover-hit { fill: transparent; }
 
@@ -884,11 +888,13 @@
     const lastTy = y(lastTarget);
     svgHtml += `<text class="target-label" x="${W - padR}" y="${lastTy - 7}" text-anchor="end">Target · ${fmtIDR(lastTarget, { short: true })}/mo</text>`;
 
-    // area + line — smooth Catmull-Rom curve through each month's point
-    function smoothPath(pts) {
-      if (pts.length < 2) return '';
-      if (pts.length < 3) return `M ${pts[0][0]},${pts[0][1]} L ${pts[1][0]},${pts[1][1]}`;
-      let d = `M ${pts[0][0]},${pts[0][1]}`;
+    // area + line — smooth Catmull-Rom curve through each month's point.
+    // Returns one path *command* per edge (excluding the leading "M") so the trailing edge
+    // into a partial (month-to-date) month can be drawn dashed without changing the curve math.
+    function smoothCommands(pts) {
+      if (pts.length < 2) return [];
+      if (pts.length < 3) return [`L ${pts[1][0]},${pts[1][1]}`];
+      const cmds = [];
       for (let i = 0; i < pts.length - 1; i++) {
         const p0 = pts[i === 0 ? 0 : i - 1];
         const p1 = pts[i];
@@ -896,17 +902,30 @@
         const p3 = pts[i + 2 < pts.length ? i + 2 : i + 1];
         const c1x = p1[0] + (p2[0] - p0[0]) / 6, c1y = p1[1] + (p2[1] - p0[1]) / 6;
         const c2x = p2[0] - (p3[0] - p1[0]) / 6, c2y = p2[1] - (p3[1] - p1[1]) / 6;
-        d += ` C ${c1x},${c1y} ${c2x},${c2y} ${p2[0]},${p2[1]}`;
+        cmds.push(`C ${c1x},${c1y} ${c2x},${c2y} ${p2[0]},${p2[1]}`);
       }
-      return d;
+      return cmds;
     }
     const points = values.map((v, i) => [x(i), y(v)]);
-    const lineD = smoothPath(points);
+    const cmds = smoothCommands(points);
+    const hasPartial = !!DATA.partial_month;
+    const partialIdx = hasPartial ? months.length - 1 : -1;
+    const lineD = points.length < 2 ? '' : `M ${points[0][0]},${points[0][1]} ${cmds.join(' ')}`;
     const areaD = `${lineD} L ${x(months.length - 1)},${padT + plotH} L ${padL},${padT + plotH} Z`;
     svgHtml += `<path class="trend-area" d="${areaD}"/>`;
-    svgHtml += `<path class="trend-line" d="${lineD}"/>`;
-    points.forEach(([px, py]) => {
-      svgHtml += `<circle class="trend-dot" cx="${px}" cy="${py}" r="3.5"/>`;
+    if (cmds.length) {
+      const solidCmds = hasPartial ? cmds.slice(0, -1) : cmds;
+      if (solidCmds.length) {
+        svgHtml += `<path class="trend-line" d="M ${points[0][0]},${points[0][1]} ${solidCmds.join(' ')}"/>`;
+      }
+      if (hasPartial) {
+        const [sx, sy] = points[points.length - 2];
+        svgHtml += `<path class="trend-line-partial" d="M ${sx},${sy} ${cmds[cmds.length - 1]}"/>`;
+      }
+    }
+    points.forEach(([px, py], i) => {
+      const cls = i === partialIdx ? 'trend-dot-partial' : 'trend-dot';
+      svgHtml += `<circle class="${cls}" cx="${px}" cy="${py}" r="3.5"/>`;
     });
 
     // hover hit areas + guide + dot (created once, moved via JS)
@@ -938,8 +957,10 @@
         guide.setAttribute('y1', padT); guide.setAttribute('y2', padT + plotH);
         guide.style.display = '';
         dot.setAttribute('cx', cx); dot.setAttribute('cy', cy);
+        dot.setAttribute('class', i === partialIdx ? 'hover-dot partial' : 'hover-dot');
         dot.style.display = '';
-        tooltip.innerHTML = `${months[i]} &nbsp;<b>${fmtIDR(values[i])}</b>`;
+        const mtdNote = i === partialIdx ? ' <span class="tooltip-mtd">(month to date)</span>' : '';
+        tooltip.innerHTML = `${months[i]}${mtdNote} &nbsp;<b>${fmtIDR(values[i])}</b>`;
         tooltip.style.left = e.clientX + 'px';
         tooltip.style.top = (e.clientY - 12) + 'px';
         tooltip.classList.add('show');
