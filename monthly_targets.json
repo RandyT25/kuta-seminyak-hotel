@@ -1,8 +1,5 @@
 {
   "_comment": "Update this each month with the current ramp target. 'default_target' is the long-term 1B/mo goal used once a month has no specific entry in 'targets'. Keys in 'targets' are YYYY-MM.",
   "default_target": 1000000000,
-  "targets": {
-    "2026-07": 628100000,
-    "2026-08": 626500000
-  }
+  "targets": {}
 }
