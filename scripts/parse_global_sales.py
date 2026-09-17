@@ -56,9 +56,9 @@ def load_monthly_targets(project_root: Path) -> tuple[int, dict]:
     return int(cfg.get("default_target", MONTHLY_TARGET)), cfg.get("targets", {})
 
 
-def is_vacant_kuta_seminyak(sales_value) -> bool:
+def is_target_rep(sales_value) -> bool:
     s = str(sales_value or '').strip().lower()
-    return 'vacant' in s and 'kuta' in s and 'seminyak' in s
+    return ('vacant' in s and 'kuta' in s and 'seminyak' in s) or ('ronald' in s)
 
 
 def normalize_category(raw) -> str:
@@ -160,7 +160,7 @@ def main():
     out_path.write_text(json.dumps(data, indent=2, ensure_ascii=False))
 
     print(f"Source: {xlsx_path.name}")
-    print(f"Filtered {len(vacant_rows):,} of {len(rows):,} rows (Vacant Hotel Kuta Seminyak / Seminyak Kuta)")
+    print(f"Filtered {len(target_rows):,} of {len(rows):,} rows (Vacant Hotel Kuta Seminyak / Seminyak Kuta / Ronald)")
     print(f"Parsed {data['customer_count']} customers, {data['product_count']} products, "
           f"{n_months} months ({months[0]}-{months[-1]})")
     if data['partial_month']:
