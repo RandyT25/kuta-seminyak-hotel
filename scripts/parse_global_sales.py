@@ -101,7 +101,13 @@ def detect_month_order_and_partial(col, rows):
     latest = months_sorted[-1]
     prior = months_sorted[:-1]
     avg_prior = (sum(counts_all[m] for m in prior) / len(prior)) if prior else counts_all[latest]
-    partial = latest if counts_all[latest] < avg_prior * 0.75 else None
+    
+    from datetime import datetime
+    now = datetime.now()
+    if latest[0] == now.year and latest[1] == now.month:
+        partial = latest
+    else:
+        partial = latest if counts_all[latest] < avg_prior * 0.75 else None
 
     return months_sorted, month_names, partial
 
