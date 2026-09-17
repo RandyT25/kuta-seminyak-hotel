@@ -123,10 +123,10 @@ def main():
         int(target_overrides.get(f"{y:04d}-{m:02d}", default_target)) for y, m in month_keys
     ]
 
-    vacant_rows = [r for r in rows if is_target_rep(r[col['Sales']])]
+    target_rows = [r for r in rows if is_target_rep(r[col['Sales']])]
 
     customers = {}
-    for r in vacant_rows:
+    for r in target_rows:
         b, y = r[col['bulan']], r[col['tahun']]
         if b is None:
             continue
