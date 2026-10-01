@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T01:08:15",
+  "generated_at": "2026-10-01T01:11:45",
   "months": [
     "January",
     "February",
@@ -9,9 +9,9 @@
     "June",
     "July",
     "August",
-    "September*"
+    "September"
   ],
-  "partial_month": "September*",
+  "partial_month": null,
   "monthly_totals": [
     449644933.38372105,
     370225867.772666,
@@ -24,9 +24,9 @@
     431638182.9127422
   ],
   "grand_total": 4063090682.0647492,
-  "run_rate": 507176255.73473114,
+  "run_rate": 461386587.52656174,
   "monthly_target": 1000000000,
-  "target_progress_pct": 50.717625573473114,
+  "target_progress_pct": 46.13865875265618,
   "monthly_targets": [
     1000000000,
     1000000000,
@@ -497,9 +497,9 @@
       "rank": 1,
       "pct_of_total": 24.64629910378537,
       "product_count": 27,
-      "status": "growing",
-      "mom_pct": -32.8,
-      "last_active_month": "September*",
+      "status": "flat",
+      "mom_pct": 108.5,
+      "last_active_month": "September",
       "cls": "A"
     },
     {
@@ -890,8 +890,8 @@
       "pct_of_total": 18.32184053219447,
       "product_count": 23,
       "status": "declining",
-      "mom_pct": -17.5,
-      "last_active_month": "September*",
+      "mom_pct": -40.6,
+      "last_active_month": "September",
       "cls": "A"
     },
     {
@@ -1298,8 +1298,8 @@
       "pct_of_total": 10.895077518011265,
       "product_count": 24,
       "status": "growing",
-      "mom_pct": -4.9,
-      "last_active_month": "September*",
+      "mom_pct": -12.7,
+      "last_active_month": "September",
       "cls": "A"
     },
     {
@@ -1402,8 +1402,8 @@
       "pct_of_total": 4.5695989764379865,
       "product_count": 5,
       "status": "flat",
-      "mom_pct": 12.4,
-      "last_active_month": "September*",
+      "mom_pct": 13.0,
+      "last_active_month": "September",
       "cls": "A"
     },
     {
@@ -1506,8 +1506,8 @@
       "pct_of_total": 4.527890742323044,
       "product_count": 5,
       "status": "growing",
-      "mom_pct": 44.2,
-      "last_active_month": "September*",
+      "mom_pct": -24.9,
+      "last_active_month": "September",
       "cls": "A"
     },
     {
@@ -2042,8 +2042,8 @@
       "pct_of_total": 3.9402602315494106,
       "product_count": 32,
       "status": "growing",
-      "mom_pct": 10.2,
-      "last_active_month": "September*",
+      "mom_pct": -10.6,
+      "last_active_month": "September",
       "cls": "A"
     },
     {
@@ -2369,9 +2369,9 @@
       "rank": 7,
       "pct_of_total": 2.613704346023126,
       "product_count": 19,
-      "status": "growing",
-      "mom_pct": -37.3,
-      "last_active_month": "September*",
+      "status": "flat",
+      "mom_pct": -60.0,
+      "last_active_month": "September",
       "cls": "A"
     },
     {
@@ -2666,8 +2666,8 @@
       "pct_of_total": 2.4782640108051948,
       "product_count": 17,
       "status": "growing",
-      "mom_pct": -6.1,
-      "last_active_month": "September*",
+      "mom_pct": 18.3,
+      "last_active_month": "September",
       "cls": "A"
     },
     {
@@ -2866,8 +2866,8 @@
       "pct_of_total": 2.4044692512276824,
       "product_count": 11,
       "status": "growing",
-      "mom_pct": 12.5,
-      "last_active_month": "September*",
+      "mom_pct": -34.4,
+      "last_active_month": "September",
       "cls": "A"
     },
     {
@@ -2922,8 +2922,8 @@
       "pct_of_total": 1.9618070635699818,
       "product_count": 2,
       "status": "flat",
-      "mom_pct": 9.1,
-      "last_active_month": "September*",
+      "mom_pct": 11.6,
+      "last_active_month": "September",
       "cls": "A"
     },
     {
@@ -3074,8 +3074,8 @@
       "pct_of_total": 1.7811224819396911,
       "product_count": 8,
       "status": "growing",
-      "mom_pct": 92.7,
-      "last_active_month": "September*",
+      "mom_pct": -37.9,
+      "last_active_month": "September",
       "cls": "A"
     },
     {
@@ -3193,9 +3193,9 @@
       "rank": 12,
       "pct_of_total": 1.6369511791471776,
       "product_count": 6,
-      "status": "flat",
-      "mom_pct": -84.6,
-      "last_active_month": "September*",
+      "status": "declining",
+      "mom_pct": -28.6,
+      "last_active_month": "September",
       "cls": "A"
     },
     {
@@ -3426,8 +3426,8 @@
       "pct_of_total": 1.6056930786072798,
       "product_count": 13,
       "status": "growing",
-      "mom_pct": -51.8,
-      "last_active_month": "September*",
+      "mom_pct": -76.7,
+      "last_active_month": "September",
       "cls": "B"
     },
     {
@@ -3545,9 +3545,9 @@
       "rank": 14,
       "pct_of_total": 1.4860874084345077,
       "product_count": 6,
-      "status": "growing",
-      "mom_pct": 6.0,
-      "last_active_month": "September*",
+      "status": "flat",
+      "mom_pct": -96.1,
+      "last_active_month": "September",
       "cls": "B"
     },
     {
@@ -3698,8 +3698,8 @@
       "pct_of_total": 1.3457157307324075,
       "product_count": 8,
       "status": "growing",
-      "mom_pct": -1.8,
-      "last_active_month": "September*",
+      "mom_pct": -49.2,
+      "last_active_month": "September",
       "cls": "B"
     },
     {
@@ -3754,8 +3754,8 @@
       "pct_of_total": 1.32140786906376,
       "product_count": 2,
       "status": "flat",
-      "mom_pct": 14.3,
-      "last_active_month": "September*",
+      "mom_pct": -25.0,
+      "last_active_month": "September",
       "cls": "B"
     },
     {
@@ -3794,8 +3794,8 @@
       "pct_of_total": 1.26229743890276,
       "product_count": 1,
       "status": "growing",
-      "mom_pct": -20.0,
-      "last_active_month": "September*",
+      "mom_pct": -3.6,
+      "last_active_month": "September",
       "cls": "B"
     },
     {
@@ -4105,9 +4105,9 @@
       "rank": 18,
       "pct_of_total": 1.2585825927432026,
       "product_count": 18,
-      "status": "growing",
-      "mom_pct": -26.7,
-      "last_active_month": "September*",
+      "status": "flat",
+      "mom_pct": -42.0,
+      "last_active_month": "September",
       "cls": "B"
     },
     {
@@ -4450,8 +4450,8 @@
       "pct_of_total": 1.1627047623678697,
       "product_count": 20,
       "status": "growing",
-      "mom_pct": 105.0,
-      "last_active_month": "September*",
+      "mom_pct": -45.9,
+      "last_active_month": "September",
       "cls": "B"
     },
     {
@@ -4522,8 +4522,8 @@
       "pct_of_total": 1.0492168030652052,
       "product_count": 3,
       "status": "growing",
-      "mom_pct": 0.0,
-      "last_active_month": "September*",
+      "mom_pct": 8.3,
+      "last_active_month": "September",
       "cls": "B"
     },
     {
@@ -4818,8 +4818,8 @@
       "pct_of_total": 0.9551311020705286,
       "product_count": 17,
       "status": "growing",
-      "mom_pct": 23.4,
-      "last_active_month": "September*",
+      "mom_pct": -4.3,
+      "last_active_month": "September",
       "cls": "B"
     },
     {
@@ -5002,8 +5002,8 @@
       "pct_of_total": 0.844835296478056,
       "product_count": 10,
       "status": "declining",
-      "mom_pct": 41.4,
-      "last_active_month": "September*",
+      "mom_pct": 9.0,
+      "last_active_month": "September",
       "cls": "B"
     },
     {
@@ -5337,9 +5337,9 @@
       "rank": 24,
       "pct_of_total": 0.6659725189166424,
       "product_count": 16,
-      "status": "growing",
-      "mom_pct": -30.4,
-      "last_active_month": "September*",
+      "status": "flat",
+      "mom_pct": -21.5,
+      "last_active_month": "September",
       "cls": "B"
     },
     {
@@ -5714,8 +5714,8 @@
       "pct_of_total": 0.6208226715468377,
       "product_count": 22,
       "status": "growing",
-      "mom_pct": -38.6,
-      "last_active_month": "September*",
+      "mom_pct": 5.1,
+      "last_active_month": "September",
       "cls": "B"
     },
     {
@@ -5770,8 +5770,8 @@
       "pct_of_total": 0.42770039410331495,
       "product_count": 2,
       "status": "growing",
-      "mom_pct": -11.9,
-      "last_active_month": "September*",
+      "mom_pct": -22.9,
+      "last_active_month": "September",
       "cls": "B"
     },
     {
@@ -5825,9 +5825,9 @@
       "rank": 27,
       "pct_of_total": 0.41568219209452156,
       "product_count": 2,
-      "status": "growing",
-      "mom_pct": 135.5,
-      "last_active_month": "September*",
+      "status": "flat",
+      "mom_pct": -38.2,
+      "last_active_month": "September",
       "cls": "B"
     },
     {
@@ -5946,8 +5946,8 @@
       "pct_of_total": 0.4100874628126617,
       "product_count": 6,
       "status": "growing",
-      "mom_pct": -29.9,
-      "last_active_month": "September*",
+      "mom_pct": 17.7,
+      "last_active_month": "September",
       "cls": "C"
     },
     {
@@ -6002,8 +6002,8 @@
       "pct_of_total": 0.3079854893526735,
       "product_count": 2,
       "status": "growing",
-      "mom_pct": 0.0,
-      "last_active_month": "September*",
+      "mom_pct": 51.1,
+      "last_active_month": "September",
       "cls": "C"
     },
     {
@@ -6058,8 +6058,8 @@
       "pct_of_total": 0.2814211494336956,
       "product_count": 2,
       "status": "growing",
-      "mom_pct": -66.7,
-      "last_active_month": "September*",
+      "mom_pct": 0.0,
+      "last_active_month": "September",
       "cls": "C"
     },
     {
@@ -6099,7 +6099,7 @@
       "product_count": 1,
       "status": "growing",
       "mom_pct": 0.0,
-      "last_active_month": "September*",
+      "last_active_month": "September",
       "cls": "C"
     },
     {
@@ -6170,8 +6170,8 @@
       "pct_of_total": 0.2293457003343225,
       "product_count": 3,
       "status": "growing",
-      "mom_pct": 65.3,
-      "last_active_month": "September*",
+      "mom_pct": -81.9,
+      "last_active_month": "September",
       "cls": "C"
     },
     {
@@ -6298,8 +6298,8 @@
       "pct_of_total": 0.2105540011145552,
       "product_count": 1,
       "status": "flat",
-      "mom_pct": 100.0,
-      "last_active_month": "September*",
+      "mom_pct": 0.0,
+      "last_active_month": "September",
       "cls": "C"
     },
     {
@@ -6417,8 +6417,8 @@
       "rank": 35,
       "pct_of_total": 0.18439298667554588,
       "product_count": 6,
-      "status": "declining",
-      "mom_pct": null,
+      "status": "churned",
+      "mom_pct": -100.0,
       "last_active_month": "August",
       "cls": "C"
     },
@@ -6522,8 +6522,8 @@
       "pct_of_total": 0.18355806905313732,
       "product_count": 5,
       "status": "growing",
-      "mom_pct": -38.8,
-      "last_active_month": "September*",
+      "mom_pct": 8.7,
+      "last_active_month": "September",
       "cls": "C"
     },
     {
@@ -6578,8 +6578,8 @@
       "pct_of_total": 0.17826085142454562,
       "product_count": 2,
       "status": "growing",
-      "mom_pct": 261.2,
-      "last_active_month": "September*",
+      "mom_pct": -56.7,
+      "last_active_month": "September",
       "cls": "C"
     },
     {
@@ -6682,8 +6682,8 @@
       "pct_of_total": 0.1662316863809629,
       "product_count": 5,
       "status": "growing",
-      "mom_pct": -92.4,
-      "last_active_month": "September*",
+      "mom_pct": 272.5,
+      "last_active_month": "September",
       "cls": "C"
     },
     {
@@ -6770,7 +6770,7 @@
       "pct_of_total": 0.1517728025904229,
       "product_count": 4,
       "status": "churned",
-      "mom_pct": -100.0,
+      "mom_pct": null,
       "last_active_month": "July",
       "cls": "C"
     },
@@ -7089,9 +7089,9 @@
       "rank": 41,
       "pct_of_total": 0.13963508186130086,
       "product_count": 2,
-      "status": "growing",
-      "mom_pct": 122.4,
-      "last_active_month": "September*",
+      "status": "flat",
+      "mom_pct": -55.0,
+      "last_active_month": "September",
       "cls": "C"
     },
     {
@@ -7162,8 +7162,8 @@
       "pct_of_total": 0.13755106167354642,
       "product_count": 3,
       "status": "growing",
-      "mom_pct": 36.5,
-      "last_active_month": "September*",
+      "mom_pct": -78.9,
+      "last_active_month": "September",
       "cls": "C"
     },
     {
@@ -7217,9 +7217,9 @@
       "rank": 43,
       "pct_of_total": 0.13516539943945266,
       "product_count": 2,
-      "status": "churned",
-      "mom_pct": -100.0,
-      "last_active_month": "September*",
+      "status": "growing",
+      "mom_pct": null,
+      "last_active_month": "September",
       "cls": "C"
     },
     {
@@ -7274,8 +7274,8 @@
       "pct_of_total": 0.13303678955186707,
       "product_count": 2,
       "status": "growing",
-      "mom_pct": 50.0,
-      "last_active_month": "September*",
+      "mom_pct": 0.0,
+      "last_active_month": "September",
       "cls": "C"
     },
     {
@@ -7377,8 +7377,8 @@
       "rank": 45,
       "pct_of_total": 0.12654579093438167,
       "product_count": 5,
-      "status": "declining",
-      "mom_pct": -76.0,
+      "status": "churned",
+      "mom_pct": -100.0,
       "last_active_month": "August",
       "cls": "C"
     },
@@ -7417,8 +7417,8 @@
       "rank": 46,
       "pct_of_total": 0.124167669263937,
       "product_count": 1,
-      "status": "growing",
-      "mom_pct": 0.0,
+      "status": "churned",
+      "mom_pct": -100.0,
       "last_active_month": "August",
       "cls": "C"
     },
@@ -7474,7 +7474,7 @@
       "pct_of_total": 0.1120834939791636,
       "product_count": 2,
       "status": "churned",
-      "mom_pct": -100.0,
+      "mom_pct": null,
       "last_active_month": "July",
       "cls": "C"
     },
@@ -7642,8 +7642,8 @@
       "pct_of_total": 0.10618475667394042,
       "product_count": 9,
       "status": "growing",
-      "mom_pct": 118.0,
-      "last_active_month": "September*",
+      "mom_pct": -76.8,
+      "last_active_month": "September",
       "cls": "C"
     },
     {
@@ -7697,9 +7697,9 @@
       "rank": 49,
       "pct_of_total": 0.10502403108624485,
       "product_count": 2,
-      "status": "flat",
-      "mom_pct": 64.4,
-      "last_active_month": "September*",
+      "status": "growing",
+      "mom_pct": 0.9,
+      "last_active_month": "September",
       "cls": "C"
     },
     {
@@ -7769,9 +7769,9 @@
       "rank": 50,
       "pct_of_total": 0.10296271600500136,
       "product_count": 3,
-      "status": "flat",
-      "mom_pct": -2.0,
-      "last_active_month": "September*",
+      "status": "declining",
+      "mom_pct": 44.5,
+      "last_active_month": "September",
       "cls": "C"
     },
     {
@@ -7826,8 +7826,8 @@
       "pct_of_total": 0.09460246105180938,
       "product_count": 2,
       "status": "growing",
-      "mom_pct": 50.0,
-      "last_active_month": "September*",
+      "mom_pct": -66.7,
+      "last_active_month": "September",
       "cls": "C"
     },
     {
@@ -7914,8 +7914,8 @@
       "pct_of_total": 0.08963353306525987,
       "product_count": 4,
       "status": "growing",
-      "mom_pct": -29.6,
-      "last_active_month": "September*",
+      "mom_pct": -23.5,
+      "last_active_month": "September",
       "cls": "C"
     },
     {
@@ -8049,9 +8049,9 @@
       "rank": 53,
       "pct_of_total": 0.08790361450109234,
       "product_count": 7,
-      "status": "flat",
-      "mom_pct": -11.6,
-      "last_active_month": "September*",
+      "status": "growing",
+      "mom_pct": 178.8,
+      "last_active_month": "September",
       "cls": "C"
     },
     {
@@ -8153,9 +8153,9 @@
       "rank": 54,
       "pct_of_total": 0.0735369735430233,
       "product_count": 5,
-      "status": "churned",
-      "mom_pct": -100.0,
-      "last_active_month": "September*",
+      "status": "growing",
+      "mom_pct": null,
+      "last_active_month": "September",
       "cls": "C"
     },
     {
@@ -8258,8 +8258,8 @@
       "pct_of_total": 0.06423503963373782,
       "product_count": 5,
       "status": "growing",
-      "mom_pct": 50.0,
-      "last_active_month": "September*",
+      "mom_pct": -63.8,
+      "last_active_month": "September",
       "cls": "C"
     },
     {
@@ -8386,7 +8386,7 @@
       "pct_of_total": 0.05463820952359001,
       "product_count": 2,
       "status": "churned",
-      "mom_pct": -100.0,
+      "mom_pct": null,
       "last_active_month": "July",
       "cls": "C"
     },
@@ -8473,8 +8473,8 @@
       "rank": 58,
       "pct_of_total": 0.053879897627229806,
       "product_count": 4,
-      "status": "growing",
-      "mom_pct": null,
+      "status": "churned",
+      "mom_pct": -100.0,
       "last_active_month": "August",
       "cls": "C"
     },
@@ -8513,8 +8513,8 @@
       "rank": 59,
       "pct_of_total": 0.05094643860983392,
       "product_count": 1,
-      "status": "flat",
-      "mom_pct": 0.0,
+      "status": "churned",
+      "mom_pct": -100.0,
       "last_active_month": "August",
       "cls": "C"
     },
@@ -8553,8 +8553,8 @@
       "rank": 60,
       "pct_of_total": 0.04843603438847979,
       "product_count": 1,
-      "status": "growing",
-      "mom_pct": null,
+      "status": "churned",
+      "mom_pct": -100.0,
       "last_active_month": "August",
       "cls": "C"
     },
@@ -8738,8 +8738,8 @@
       "pct_of_total": 0.042147385426499075,
       "product_count": 10,
       "status": "growing",
-      "mom_pct": 271.7,
-      "last_active_month": "September*",
+      "mom_pct": -58.2,
+      "last_active_month": "September",
       "cls": "C"
     },
     {
@@ -8914,7 +8914,7 @@
       "pct_of_total": 0.03399134348874941,
       "product_count": 6,
       "status": "churned",
-      "mom_pct": -100.0,
+      "mom_pct": null,
       "last_active_month": "July",
       "cls": "C"
     },
@@ -8969,9 +8969,9 @@
       "rank": 64,
       "pct_of_total": 0.03309489684627648,
       "product_count": 2,
-      "status": "churned",
+      "status": "declining",
       "mom_pct": null,
-      "last_active_month": "September*",
+      "last_active_month": "September",
       "cls": "C"
     },
     {
@@ -9025,9 +9025,9 @@
       "rank": 65,
       "pct_of_total": 0.027217107776635566,
       "product_count": 2,
-      "status": "churned",
+      "status": "growing",
       "mom_pct": null,
-      "last_active_month": "September*",
+      "last_active_month": "September",
       "cls": "C"
     },
     {
@@ -9250,8 +9250,8 @@
       "pct_of_total": 0.018058414084574138,
       "product_count": 6,
       "status": "growing",
-      "mom_pct": null,
-      "last_active_month": "September*",
+      "mom_pct": 105.4,
+      "last_active_month": "September",
       "cls": "C"
     },
     {
@@ -9457,9 +9457,9 @@
       "rank": 69,
       "pct_of_total": 0.015365977991924391,
       "product_count": 5,
-      "status": "churned",
+      "status": "flat",
       "mom_pct": null,
-      "last_active_month": "September*",
+      "last_active_month": "September",
       "cls": "C"
     },
     {
@@ -9585,9 +9585,9 @@
       "rank": 71,
       "pct_of_total": 0.012514438386632519,
       "product_count": 4,
-      "status": "flat",
+      "status": "new",
       "mom_pct": null,
-      "last_active_month": "September*",
+      "last_active_month": "September",
       "cls": "C"
     },
     {
@@ -9794,7 +9794,7 @@
       "pct_of_total": 0.004851186582398284,
       "product_count": 2,
       "status": "churned",
-      "mom_pct": -100.0,
+      "mom_pct": null,
       "last_active_month": "July",
       "cls": "C"
     },
@@ -10057,6 +10057,126 @@
       "cls": "C"
     },
     {
+      "name": "HARRIS SEMINYAK HOTEL",
+      "monthly": [
+        1297297.29,
+        1621621.68,
+        1621621.68,
+        810810.84,
+        1839639.699998,
+        0.0,
+        0.0,
+        301063.06999700004,
+        0.0
+      ],
+      "products": [
+        {
+          "name": "Pristine Classic Cooking Cream 1 Lt",
+          "category": "Dairy",
+          "monthly": [
+            486486.45,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "total": 486486.45
+        },
+        {
+          "name": "O Sole Pomodori Pelati Peeled Tomatoes 2.5Kg",
+          "category": "Dry Goods",
+          "monthly": [
+            810810.84,
+            1621621.68,
+            1621621.68,
+            810810.84,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "total": 4864865.04
+        },
+        {
+          "name": "Peppermint Tea @50tb/Box",
+          "category": "Beverage",
+          "monthly": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            218018.019998,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "total": 218018.019998
+        },
+        {
+          "name": "La Torrente Tomatoes  Peeled 2.5 Kg",
+          "category": "Dry Goods",
+          "monthly": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1621621.68,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "total": 1621621.68
+        },
+        {
+          "name": "Chamomile Dream @50Tb/Box",
+          "category": "Beverage",
+          "monthly": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            109009.009999,
+            0.0
+          ],
+          "total": 109009.009999
+        },
+        {
+          "name": "English Breakfast@50TB/Box",
+          "category": "Beverage",
+          "monthly": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            192054.059998,
+            0.0
+          ],
+          "total": 192054.059998
+        }
+      ],
+      "total": 7492054.259994999,
+      "rank": 35,
+      "pct_of_total": 0.18439298667554588,
+      "product_count": 6,
+      "status": "churned",
+      "mom_pct": -100.0,
+      "last_active_month": "August",
+      "cls": "C"
+    },
+    {
       "name": "KLEO SEMINYAK",
       "monthly": [
         0.0,
@@ -10140,7 +10260,7 @@
       "pct_of_total": 0.1517728025904229,
       "product_count": 4,
       "status": "churned",
-      "mom_pct": -100.0,
+      "mom_pct": null,
       "last_active_month": "July",
       "cls": "C"
     },
@@ -10409,59 +10529,147 @@
       "cls": "C"
     },
     {
-      "name": "ALOFT BALI KUTA BEACHWALK",
+      "name": "HARRIS HOTEL SEMINYAK",
       "monthly": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        1427027.25,
-        1643243.5,
-        0.0,
-        2421622.0
+        770217.56,
+        619500.0,
+        1096351.3399999999,
+        1173001.3399999999,
+        118650.0,
+        604800.0,
+        612150.0,
+        147000.0,
+        0.0
       ],
       "products": [
         {
-          "name": "Arass Green Tea 100 Tb",
-          "category": "Other",
+          "name": "Tepung Double Zero @25Kg/Sack",
+          "category": "Bakery",
           "monthly": [
+            567567.56,
+            0.0,
+            851351.34,
+            851351.34,
             0.0,
             0.0,
             0.0,
             0.0,
-            0.0,
-            691892.0,
-            1383784.0,
-            0.0,
-            2118919.25
+            0.0
           ],
-          "total": 4194595.25
+          "total": 2270270.2399999998
         },
         {
-          "name": "Arass English Breakfast Tea 100 Tb",
-          "category": "Other",
+          "name": "THE ALTERNATIVE Barista Almond Milk 1 Lt",
+          "category": "Beverage",
+          "monthly": [
+            84000.0,
+            126000.0,
+            0.0,
+            0.0,
+            84000.0,
+            84000.0,
+            126000.0,
+            0.0,
+            0.0
+          ],
+          "total": 504000.0
+        },
+        {
+          "name": "THE ALTERNATIVE Barista Oat Milk 1 Lt",
+          "category": "Beverage",
+          "monthly": [
+            84000.0,
+            126000.0,
+            0.0,
+            42000.0,
+            0.0,
+            84000.0,
+            84000.0,
+            0.0,
+            0.0
+          ],
+          "total": 420000.0
+        },
+        {
+          "name": "THE ALTERNATIVE Barista Soy Milk 1 Lt",
+          "category": "Beverage",
+          "monthly": [
+            34650.0,
+            0.0,
+            0.0,
+            34650.0,
+            34650.0,
+            69300.0,
+            34650.0,
+            0.0,
+            0.0
+          ],
+          "total": 207900.0
+        },
+        {
+          "name": "Inofa Heat Treated Wheat Flour SF 346 @1kg/pack",
+          "category": "Flour Mip",
           "monthly": [
             0.0,
+            367500.0,
+            245000.0,
+            245000.0,
             0.0,
-            0.0,
-            0.0,
-            0.0,
-            735135.25,
-            259459.5,
-            0.0,
-            302702.75
+            367500.0,
+            367500.0,
+            147000.0,
+            0.0
           ],
-          "total": 1297297.5
+          "total": 1739500.0
         }
       ],
-      "total": 5491892.75,
-      "rank": 43,
-      "pct_of_total": 0.13516539943945266,
-      "product_count": 2,
+      "total": 5141670.24,
+      "rank": 45,
+      "pct_of_total": 0.12654579093438167,
+      "product_count": 5,
       "status": "churned",
       "mom_pct": -100.0,
-      "last_active_month": "September*",
+      "last_active_month": "August",
+      "cls": "C"
+    },
+    {
+      "name": "BALI DYNASTY RESORT",
+      "monthly": [
+        0.0,
+        504504.5,
+        504504.5,
+        1009009.0,
+        0.0,
+        1009009.0,
+        1009009.0,
+        1009009.0,
+        0.0
+      ],
+      "products": [
+        {
+          "name": "Inofa Heat Treated Wheat Flour SF 346 @25kg/sack",
+          "category": "Flour Mip",
+          "monthly": [
+            0.0,
+            504504.5,
+            504504.5,
+            1009009.0,
+            0.0,
+            1009009.0,
+            1009009.0,
+            1009009.0,
+            0.0
+          ],
+          "total": 5045045.0
+        }
+      ],
+      "total": 5045045.0,
+      "rank": 46,
+      "pct_of_total": 0.124167669263937,
+      "product_count": 1,
+      "status": "churned",
+      "mom_pct": -100.0,
+      "last_active_month": "August",
       "cls": "C"
     },
     {
@@ -10516,112 +10724,8 @@
       "pct_of_total": 0.1120834939791636,
       "product_count": 2,
       "status": "churned",
-      "mom_pct": -100.0,
+      "mom_pct": null,
       "last_active_month": "July",
-      "cls": "C"
-    },
-    {
-      "name": "BALI SUMMER HOTEL",
-      "monthly": [
-        0.0,
-        0.0,
-        0.0,
-        608774.779999,
-        672072.083,
-        593513.5239,
-        535135.1445,
-        0.0,
-        578378.3885
-      ],
-      "products": [
-        {
-          "name": "Masterista Japanese Matcha Powder Premium 500 Ml",
-          "category": "Beverage",
-          "monthly": [
-            0.0,
-            0.0,
-            0.0,
-            475675.679999,
-            0.0,
-            0.0,
-            0.0,
-            0.0,
-            0.0
-          ],
-          "total": 475675.679999
-        },
-        {
-          "name": "Masterista Syrup Tropical Mango 850 Ml",
-          "category": "Beverage",
-          "monthly": [
-            0.0,
-            0.0,
-            0.0,
-            99099.1,
-            0.0,
-            0.0,
-            0.0,
-            0.0,
-            0.0
-          ],
-          "total": 99099.1
-        },
-        {
-          "name": "Gold Box Extra Butter MP341 250gr - Sample",
-          "category": "Bakery",
-          "monthly": [
-            0.0,
-            0.0,
-            0.0,
-            34000.0,
-            0.0,
-            0.0,
-            0.0,
-            0.0,
-            0.0
-          ],
-          "total": 34000.0
-        },
-        {
-          "name": "Masterista Syrup Strawberry 850 Ml",
-          "category": "Beverage",
-          "monthly": [
-            0.0,
-            0.0,
-            0.0,
-            0.0,
-            99099.1,
-            0.0,
-            0.0,
-            0.0,
-            0.0
-          ],
-          "total": 99099.1
-        },
-        {
-          "name": "Gold Box Extra Butter MP341 5 Kg",
-          "category": "Bakery",
-          "monthly": [
-            0.0,
-            0.0,
-            0.0,
-            0.0,
-            572972.983,
-            593513.5239,
-            535135.1445,
-            0.0,
-            578378.3885
-          ],
-          "total": 2280000.0398999997
-        }
-      ],
-      "total": 2987873.919899,
-      "rank": 54,
-      "pct_of_total": 0.0735369735430233,
-      "product_count": 5,
-      "status": "churned",
-      "mom_pct": -100.0,
-      "last_active_month": "September*",
       "cls": "C"
     },
     {
@@ -10748,8 +10852,176 @@
       "pct_of_total": 0.05463820952359001,
       "product_count": 2,
       "status": "churned",
-      "mom_pct": -100.0,
+      "mom_pct": null,
       "last_active_month": "July",
+      "cls": "C"
+    },
+    {
+      "name": "ALAMI LUXURY VILLA",
+      "monthly": [
+        416666.65,
+        0.0,
+        416666.65,
+        0.0,
+        416666.65,
+        511261.239999,
+        0.0,
+        427927.909999,
+        0.0
+      ],
+      "products": [
+        {
+          "name": "Pure Green Tea @50TB/Box",
+          "category": "Beverage",
+          "monthly": [
+            166666.66,
+            0.0,
+            166666.66,
+            0.0,
+            249999.99,
+            166666.66,
+            0.0,
+            83333.33,
+            0.0
+          ],
+          "total": 833333.3
+        },
+        {
+          "name": "English Breakfast@50TB/Box",
+          "category": "Beverage",
+          "monthly": [
+            249999.99,
+            0.0,
+            249999.99,
+            0.0,
+            166666.66,
+            249999.99,
+            0.0,
+            249999.99,
+            0.0
+          ],
+          "total": 1166666.62
+        },
+        {
+          "name": "Peppermint Tea @50tb/Box",
+          "category": "Beverage",
+          "monthly": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            94594.589999,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "total": 94594.589999
+        },
+        {
+          "name": "Chamomile Dream @50Tb/Box",
+          "category": "Beverage",
+          "monthly": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            94594.589999,
+            0.0
+          ],
+          "total": 94594.589999
+        }
+      ],
+      "total": 2189189.099998,
+      "rank": 58,
+      "pct_of_total": 0.053879897627229806,
+      "product_count": 4,
+      "status": "churned",
+      "mom_pct": -100.0,
+      "last_active_month": "August",
+      "cls": "C"
+    },
+    {
+      "name": "GEPREK BULAN",
+      "monthly": [
+        414000.0,
+        0.0,
+        414000.0,
+        414000.0,
+        0.0,
+        0.0,
+        414000.0,
+        414000.0,
+        0.0
+      ],
+      "products": [
+        {
+          "name": "Tepung Stupa Emas 25 Kg",
+          "category": "Bakery",
+          "monthly": [
+            414000.0,
+            0.0,
+            414000.0,
+            414000.0,
+            0.0,
+            0.0,
+            414000.0,
+            414000.0,
+            0.0
+          ],
+          "total": 2070000.0
+        }
+      ],
+      "total": 2070000.0,
+      "rank": 59,
+      "pct_of_total": 0.05094643860983392,
+      "product_count": 1,
+      "status": "churned",
+      "mom_pct": -100.0,
+      "last_active_month": "August",
+      "cls": "C"
+    },
+    {
+      "name": "THE KANA KUTA HOTEL",
+      "monthly": [
+        1104000.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        864000.0,
+        0.0
+      ],
+      "products": [
+        {
+          "name": "Halal Premium Oxtail Whole Cut 3Cm (2 Kg/Pack)",
+          "category": "Frozen Meat",
+          "monthly": [
+            1104000.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            864000.0,
+            0.0
+          ],
+          "total": 1968000.0
+        }
+      ],
+      "total": 1968000.0,
+      "rank": 60,
+      "pct_of_total": 0.04843603438847979,
+      "product_count": 1,
+      "status": "churned",
+      "mom_pct": -100.0,
+      "last_active_month": "August",
       "cls": "C"
     },
     {
@@ -10924,120 +11196,8 @@
       "pct_of_total": 0.03399134348874941,
       "product_count": 6,
       "status": "churned",
-      "mom_pct": -100.0,
+      "mom_pct": null,
       "last_active_month": "July",
-      "cls": "C"
-    },
-    {
-      "name": "FONTANA HOTEL",
-      "monthly": [
-        0.0,
-        0.0,
-        292810.81,
-        444621.62,
-        151810.81,
-        303621.62,
-        0.0,
-        0.0,
-        151810.81
-      ],
-      "products": [
-        {
-          "name": "Masterista Avocado Base 800Gr",
-          "category": "Beverage",
-          "monthly": [
-            0.0,
-            0.0,
-            141000.0,
-            141000.0,
-            0.0,
-            0.0,
-            0.0,
-            0.0,
-            0.0
-          ],
-          "total": 282000.0
-        },
-        {
-          "name": "Masterista Original Matcha 800Gr",
-          "category": "Beverage",
-          "monthly": [
-            0.0,
-            0.0,
-            151810.81,
-            303621.62,
-            151810.81,
-            303621.62,
-            0.0,
-            0.0,
-            151810.81
-          ],
-          "total": 1062675.67
-        }
-      ],
-      "total": 1344675.67,
-      "rank": 64,
-      "pct_of_total": 0.03309489684627648,
-      "product_count": 2,
-      "status": "churned",
-      "mom_pct": null,
-      "last_active_month": "September*",
-      "cls": "C"
-    },
-    {
-      "name": "KUTA BEACH HOTEL",
-      "monthly": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        24774.77,
-        540540.5,
-        0.0,
-        0.0,
-        540540.5
-      ],
-      "products": [
-        {
-          "name": "Emborg Pizza Topping 250Gr - Sample",
-          "category": "Other",
-          "monthly": [
-            0.0,
-            0.0,
-            0.0,
-            0.0,
-            24774.77,
-            0.0,
-            0.0,
-            0.0,
-            0.0
-          ],
-          "total": 24774.77
-        },
-        {
-          "name": "Arass English Breakfast Tea 100 Tb",
-          "category": "Other",
-          "monthly": [
-            0.0,
-            0.0,
-            0.0,
-            0.0,
-            0.0,
-            540540.5,
-            0.0,
-            0.0,
-            540540.5
-          ],
-          "total": 1081081.0
-        }
-      ],
-      "total": 1105855.77,
-      "rank": 65,
-      "pct_of_total": 0.027217107776635566,
-      "product_count": 2,
-      "status": "churned",
-      "mom_pct": null,
-      "last_active_month": "September*",
       "cls": "C"
     },
     {
@@ -11246,110 +11406,6 @@
       "status": "churned",
       "mom_pct": null,
       "last_active_month": "February",
-      "cls": "C"
-    },
-    {
-      "name": "J4 HOTEL",
-      "monthly": [
-        0.0,
-        0.0,
-        0.0,
-        210009.079999,
-        0.0,
-        213774.91,
-        0.0,
-        0.0,
-        200549.629999
-      ],
-      "products": [
-        {
-          "name": "English Breakfast@50TB/Box",
-          "category": "Beverage",
-          "monthly": [
-            0.0,
-            0.0,
-            0.0,
-            96027.029999,
-            0.0,
-            0.0,
-            0.0,
-            0.0,
-            96027.029999
-          ],
-          "total": 192054.059998
-        },
-        {
-          "name": "Peppermint Tea @50tb/Box",
-          "category": "Beverage",
-          "monthly": [
-            0.0,
-            0.0,
-            0.0,
-            113982.05,
-            0.0,
-            0.0,
-            0.0,
-            0.0,
-            0.0
-          ],
-          "total": 113982.05
-        },
-        {
-          "name": "Chamomile Dream @50Tb/Box",
-          "category": "Beverage",
-          "monthly": [
-            0.0,
-            0.0,
-            0.0,
-            0.0,
-            0.0,
-            113982.05,
-            0.0,
-            0.0,
-            0.0
-          ],
-          "total": 113982.05
-        },
-        {
-          "name": "Javanese Jasmine Tea @50TB/Box",
-          "category": "Beverage",
-          "monthly": [
-            0.0,
-            0.0,
-            0.0,
-            0.0,
-            0.0,
-            99792.86,
-            0.0,
-            0.0,
-            0.0
-          ],
-          "total": 99792.86
-        },
-        {
-          "name": "Earl Grey @50TB/Box",
-          "category": "Beverage",
-          "monthly": [
-            0.0,
-            0.0,
-            0.0,
-            0.0,
-            0.0,
-            0.0,
-            0.0,
-            0.0,
-            104522.6
-          ],
-          "total": 104522.6
-        }
-      ],
-      "total": 624333.619998,
-      "rank": 69,
-      "pct_of_total": 0.015365977991924391,
-      "product_count": 5,
-      "status": "churned",
-      "mom_pct": null,
-      "last_active_month": "September*",
       "cls": "C"
     },
     {
@@ -11596,7 +11652,7 @@
       "pct_of_total": 0.004851186582398284,
       "product_count": 2,
       "status": "churned",
-      "mom_pct": -100.0,
+      "mom_pct": null,
       "last_active_month": "July",
       "cls": "C"
     },
@@ -11766,8 +11822,8 @@
       "pct_of_total": 1.9618070635699818,
       "product_count": 2,
       "status": "flat",
-      "mom_pct": 9.1,
-      "last_active_month": "September*",
+      "mom_pct": 11.6,
+      "last_active_month": "September",
       "cls": "A"
     },
     {
@@ -11822,8 +11878,8 @@
       "pct_of_total": 1.32140786906376,
       "product_count": 2,
       "status": "flat",
-      "mom_pct": 14.3,
-      "last_active_month": "September*",
+      "mom_pct": -25.0,
+      "last_active_month": "September",
       "cls": "B"
     },
     {
@@ -11862,8 +11918,8 @@
       "pct_of_total": 1.26229743890276,
       "product_count": 1,
       "status": "growing",
-      "mom_pct": -20.0,
-      "last_active_month": "September*",
+      "mom_pct": -3.6,
+      "last_active_month": "September",
       "cls": "B"
     },
     {
@@ -11918,8 +11974,8 @@
       "pct_of_total": 0.42770039410331495,
       "product_count": 2,
       "status": "growing",
-      "mom_pct": -11.9,
-      "last_active_month": "September*",
+      "mom_pct": -22.9,
+      "last_active_month": "September",
       "cls": "B"
     },
     {
@@ -11973,9 +12029,9 @@
       "rank": 27,
       "pct_of_total": 0.41568219209452156,
       "product_count": 2,
-      "status": "growing",
-      "mom_pct": 135.5,
-      "last_active_month": "September*",
+      "status": "flat",
+      "mom_pct": -38.2,
+      "last_active_month": "September",
       "cls": "B"
     },
     {
@@ -12030,8 +12086,8 @@
       "pct_of_total": 0.3079854893526735,
       "product_count": 2,
       "status": "growing",
-      "mom_pct": 0.0,
-      "last_active_month": "September*",
+      "mom_pct": 51.1,
+      "last_active_month": "September",
       "cls": "C"
     },
     {
@@ -12086,8 +12142,8 @@
       "pct_of_total": 0.2814211494336956,
       "product_count": 2,
       "status": "growing",
-      "mom_pct": -66.7,
-      "last_active_month": "September*",
+      "mom_pct": 0.0,
+      "last_active_month": "September",
       "cls": "C"
     },
     {
@@ -12127,7 +12183,7 @@
       "product_count": 1,
       "status": "growing",
       "mom_pct": 0.0,
-      "last_active_month": "September*",
+      "last_active_month": "September",
       "cls": "C"
     },
     {
@@ -12166,8 +12222,8 @@
       "pct_of_total": 0.2105540011145552,
       "product_count": 1,
       "status": "flat",
-      "mom_pct": 100.0,
-      "last_active_month": "September*",
+      "mom_pct": 0.0,
+      "last_active_month": "September",
       "cls": "C"
     },
     {
@@ -12222,8 +12278,8 @@
       "pct_of_total": 0.17826085142454562,
       "product_count": 2,
       "status": "growing",
-      "mom_pct": 261.2,
-      "last_active_month": "September*",
+      "mom_pct": -56.7,
+      "last_active_month": "September",
       "cls": "C"
     },
     {
@@ -12277,9 +12333,65 @@
       "rank": 41,
       "pct_of_total": 0.13963508186130086,
       "product_count": 2,
+      "status": "flat",
+      "mom_pct": -55.0,
+      "last_active_month": "September",
+      "cls": "C"
+    },
+    {
+      "name": "ALOFT BALI KUTA BEACHWALK",
+      "monthly": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1427027.25,
+        1643243.5,
+        0.0,
+        2421622.0
+      ],
+      "products": [
+        {
+          "name": "Arass Green Tea 100 Tb",
+          "category": "Other",
+          "monthly": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            691892.0,
+            1383784.0,
+            0.0,
+            2118919.25
+          ],
+          "total": 4194595.25
+        },
+        {
+          "name": "Arass English Breakfast Tea 100 Tb",
+          "category": "Other",
+          "monthly": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            735135.25,
+            259459.5,
+            0.0,
+            302702.75
+          ],
+          "total": 1297297.5
+        }
+      ],
+      "total": 5491892.75,
+      "rank": 43,
+      "pct_of_total": 0.13516539943945266,
+      "product_count": 2,
       "status": "growing",
-      "mom_pct": 122.4,
-      "last_active_month": "September*",
+      "mom_pct": null,
+      "last_active_month": "September",
       "cls": "C"
     },
     {
@@ -12334,48 +12446,8 @@
       "pct_of_total": 0.13303678955186707,
       "product_count": 2,
       "status": "growing",
-      "mom_pct": 50.0,
-      "last_active_month": "September*",
-      "cls": "C"
-    },
-    {
-      "name": "BALI DYNASTY RESORT",
-      "monthly": [
-        0.0,
-        504504.5,
-        504504.5,
-        1009009.0,
-        0.0,
-        1009009.0,
-        1009009.0,
-        1009009.0,
-        0.0
-      ],
-      "products": [
-        {
-          "name": "Inofa Heat Treated Wheat Flour SF 346 @25kg/sack",
-          "category": "Flour Mip",
-          "monthly": [
-            0.0,
-            504504.5,
-            504504.5,
-            1009009.0,
-            0.0,
-            1009009.0,
-            1009009.0,
-            1009009.0,
-            0.0
-          ],
-          "total": 5045045.0
-        }
-      ],
-      "total": 5045045.0,
-      "rank": 46,
-      "pct_of_total": 0.124167669263937,
-      "product_count": 1,
-      "status": "growing",
       "mom_pct": 0.0,
-      "last_active_month": "August",
+      "last_active_month": "September",
       "cls": "C"
     },
     {
@@ -12429,9 +12501,9 @@
       "rank": 49,
       "pct_of_total": 0.10502403108624485,
       "product_count": 2,
-      "status": "flat",
-      "mom_pct": 64.4,
-      "last_active_month": "September*",
+      "status": "growing",
+      "mom_pct": 0.9,
+      "last_active_month": "September",
       "cls": "C"
     },
     {
@@ -12486,88 +12558,120 @@
       "pct_of_total": 0.09460246105180938,
       "product_count": 2,
       "status": "growing",
-      "mom_pct": 50.0,
-      "last_active_month": "September*",
+      "mom_pct": -66.7,
+      "last_active_month": "September",
       "cls": "C"
     },
     {
-      "name": "GEPREK BULAN",
+      "name": "FONTANA HOTEL",
       "monthly": [
-        414000.0,
-        0.0,
-        414000.0,
-        414000.0,
         0.0,
         0.0,
-        414000.0,
-        414000.0,
-        0.0
+        292810.81,
+        444621.62,
+        151810.81,
+        303621.62,
+        0.0,
+        0.0,
+        151810.81
       ],
       "products": [
         {
-          "name": "Tepung Stupa Emas 25 Kg",
-          "category": "Bakery",
+          "name": "Masterista Avocado Base 800Gr",
+          "category": "Beverage",
           "monthly": [
-            414000.0,
-            0.0,
-            414000.0,
-            414000.0,
             0.0,
             0.0,
-            414000.0,
-            414000.0,
+            141000.0,
+            141000.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
             0.0
           ],
-          "total": 2070000.0
+          "total": 282000.0
+        },
+        {
+          "name": "Masterista Original Matcha 800Gr",
+          "category": "Beverage",
+          "monthly": [
+            0.0,
+            0.0,
+            151810.81,
+            303621.62,
+            151810.81,
+            303621.62,
+            0.0,
+            0.0,
+            151810.81
+          ],
+          "total": 1062675.67
         }
       ],
-      "total": 2070000.0,
-      "rank": 59,
-      "pct_of_total": 0.05094643860983392,
-      "product_count": 1,
-      "status": "flat",
-      "mom_pct": 0.0,
-      "last_active_month": "August",
+      "total": 1344675.67,
+      "rank": 64,
+      "pct_of_total": 0.03309489684627648,
+      "product_count": 2,
+      "status": "declining",
+      "mom_pct": null,
+      "last_active_month": "September",
       "cls": "C"
     },
     {
-      "name": "THE KANA KUTA HOTEL",
+      "name": "KUTA BEACH HOTEL",
       "monthly": [
-        1104000.0,
         0.0,
         0.0,
         0.0,
         0.0,
+        24774.77,
+        540540.5,
         0.0,
         0.0,
-        864000.0,
-        0.0
+        540540.5
       ],
       "products": [
         {
-          "name": "Halal Premium Oxtail Whole Cut 3Cm (2 Kg/Pack)",
-          "category": "Frozen Meat",
+          "name": "Emborg Pizza Topping 250Gr - Sample",
+          "category": "Other",
           "monthly": [
-            1104000.0,
             0.0,
             0.0,
             0.0,
             0.0,
+            24774.77,
             0.0,
             0.0,
-            864000.0,
+            0.0,
             0.0
           ],
-          "total": 1968000.0
+          "total": 24774.77
+        },
+        {
+          "name": "Arass English Breakfast Tea 100 Tb",
+          "category": "Other",
+          "monthly": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            540540.5,
+            0.0,
+            0.0,
+            540540.5
+          ],
+          "total": 1081081.0
         }
       ],
-      "total": 1968000.0,
-      "rank": 60,
-      "pct_of_total": 0.04843603438847979,
-      "product_count": 1,
+      "total": 1105855.77,
+      "rank": 65,
+      "pct_of_total": 0.027217107776635566,
+      "product_count": 2,
       "status": "growing",
       "mom_pct": null,
-      "last_active_month": "August",
+      "last_active_month": "September",
       "cls": "C"
     }
   ],
@@ -13866,8 +13970,8 @@
     }
   ],
   "top_grower": {
-    "name": "EPISODE",
-    "mom_pct": 271.7,
-    "total": 1712486
+    "name": "NAKULA HOSPITALITY MANAGEMENT",
+    "mom_pct": 272.5,
+    "total": 6754144
   }
 }
