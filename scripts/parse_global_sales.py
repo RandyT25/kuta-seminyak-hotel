@@ -28,8 +28,9 @@ MONTHLY_TARGET = 1_000_000_000  # 1B IDR/month, the long-term growth target
 
 REQUIRED_COLUMNS = ['Nama Cust', 'Nama Brg', 'Kategori Barang', 'DPP', 'Sales', 'bulan', 'nama bulan', 'tahun']
 
-_MONTH_ABBR = {'jan': 1, 'feb': 2, 'mar': 3, 'apr': 4, 'may': 5, 'jun': 6,
-               'jul': 7, 'aug': 8, 'sep': 9, 'oct': 10, 'nov': 11, 'dec': 12}
+_MONTH_ABBR = {'jan': 1, 'feb': 2, 'mar': 3, 'apr': 4, 'may': 5, 'mei': 5, 'jun': 6,
+               'jul': 7, 'aug': 8, 'agu': 8, 'agt': 8, 'sep': 9, 'oct': 10, 'okt': 10,
+               'nov': 11, 'dec': 12, 'des': 12}
 
 
 def find_default_xlsx(project_root: Path) -> Path:
