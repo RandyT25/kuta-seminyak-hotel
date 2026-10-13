@@ -18,12 +18,14 @@ filename) and writes "data.json" in the project root.
 import sys
 import re
 import json
+import calendar
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 from collections import defaultdict
 
 import openpyxl
 
+BALI_TZ = timezone(timedelta(hours=8))  # WITA (UTC+8)
 MONTHLY_TARGET = 1_000_000_000  # 1B IDR/month, the long-term growth target
 
 REQUIRED_COLUMNS = ['Nama Cust', 'Nama Brg', 'Kategori Barang', 'DPP', 'Sales', 'bulan', 'nama bulan', 'tahun']
@@ -103,8 +105,7 @@ def detect_month_order_and_partial(col, rows):
     prior = months_sorted[:-1]
     avg_prior = (sum(counts_all[m] for m in prior) / len(prior)) if prior else counts_all[latest]
     
-    from datetime import datetime
-    now = datetime.now()
+    now = datetime.now(BALI_TZ)
     if latest[0] == now.year and latest[1] == now.month:
         partial = latest
     else:
@@ -148,7 +149,7 @@ def main():
         category = normalize_category(r[col['Kategori Barang']])
         if category in EXCLUDED_CATEGORIES:
             continue
-        amount = float(r[col['DPP']] or 0)  # pre-VAT base amount, matching the company's achievement reports
+        amount = float(r[col['DPP']] or 0)  # pre-VAT base amount (without tax), matching achievement reports
 
         c = customers.setdefault(cname, {"name": cname, "monthly": [0.0] * n_months, "products": {}})
         c["monthly"][mi] += amount
@@ -163,20 +164,22 @@ def main():
         c["total"] = sum(c["monthly"])
 
     data = build_data(months, list(customers.values()), trend_len, partial_key is not None,
-                       default_target, monthly_targets)
+                       default_target, monthly_targets, month_keys[-1])
     out_path.write_text(json.dumps(data, indent=2, ensure_ascii=False))
 
     print(f"Source: {xlsx_path.name}")
     print(f"Filtered {len(target_rows):,} of {len(rows):,} rows (Vacant Hotel Kuta Seminyak / Seminyak Kuta / Ronald)")
     print(f"Parsed {data['customer_count']} customers, {data['product_count']} products, "
-          f"{n_months} months ({months[0]}-{months[-1]})")
+          f"{n_months} months ({months[0]}-{months[-1]}) — all amounts pre-tax (DPP)")
     if data['partial_month']:
         print(f"Partial month detected: {data['partial_month']} (excluded from run-rate/trend)")
-    print(f"Grand total: {data['grand_total']:,.0f}")
+    print(f"Grand total (DPP): {data['grand_total']:,.0f}")
     print(f"Run rate (last {min(3, trend_len)} complete mo avg): {data['run_rate']:,.0f} "
           f"({data['target_progress_pct']:.1f}% of {default_target:,.0f} long-term target)")
     print(f"This month ({months[-1]}): {data['current_month_actual']:,.0f} of "
-          f"{data['current_month_target']:,.0f} target ({data['current_month_progress_pct']:.1f}%)")
+          f"{data['current_month_target']:,.0f} target ({data['current_month_progress_pct']:.1f}%) "
+          f"— Est. full month: {data['current_month_estimated']:,.0f} ({data['current_month_estimated_pct']:.1f}%, "
+          f"day {data['current_month_elapsed_days']}/{data['current_month_total_days']})")
     print(f"At-risk customers: {len(data['at_risk'])}, Upsell targets: {len(data['upsell_targets'])}")
     abc_line = ", ".join(f"{b['cls']}={b['accs']}" for b in data['abc'])
     print(f"ABC tiers: {abc_line}")
@@ -217,7 +220,7 @@ def trend_status(monthly, window=3):
     return "flat"
 
 
-def build_data(months, customers, trend_len, has_partial, default_target, monthly_targets):
+def build_data(months, customers, trend_len, has_partial, default_target, monthly_targets, latest_key=None):
     grand_total = sum(c["total"] for c in customers)
 
     monthly_totals = [0.0] * len(months)
@@ -308,8 +311,28 @@ def build_data(months, customers, trend_len, has_partial, default_target, monthl
         key=lambda x: -x["total"],
     )
 
+    now = datetime.now(BALI_TZ)
+    if latest_key and latest_key[0] > 0 and 1 <= latest_key[1] <= 12:
+        total_days = calendar.monthrange(latest_key[0], latest_key[1])[1]
+        if latest_key[0] == now.year and latest_key[1] == now.month:
+            elapsed_days = max(1, min(now.day, total_days))
+        else:
+            elapsed_days = total_days
+    else:
+        total_days = calendar.monthrange(now.year, now.month)[1]
+        elapsed_days = max(1, min(now.day, total_days)) if has_partial else total_days
+
+    current_actual = monthly_totals[-1]
+    current_target = monthly_targets[-1]
+    estimated_amount = (
+        current_actual * (total_days / elapsed_days)
+        if has_partial and elapsed_days > 0
+        else current_actual
+    )
+    estimated_pct = (estimated_amount / current_target * 100) if current_target else 0
+
     return {
-        "generated_at": datetime.now().isoformat(timespec="seconds"),
+        "generated_at": now.replace(tzinfo=None).isoformat(timespec="seconds"),
         "months": months,
         "partial_month": months[-1] if has_partial else None,
         "monthly_totals": monthly_totals,
@@ -318,11 +341,15 @@ def build_data(months, customers, trend_len, has_partial, default_target, monthl
         "monthly_target": default_target,
         "target_progress_pct": (run_rate / default_target * 100) if default_target else 0,
         "monthly_targets": monthly_targets,
-        "current_month_target": monthly_targets[-1],
-        "current_month_actual": monthly_totals[-1],
+        "current_month_target": current_target,
+        "current_month_actual": current_actual,
         "current_month_progress_pct": (
-            (monthly_totals[-1] / monthly_targets[-1] * 100) if monthly_targets[-1] else 0
+            (current_actual / current_target * 100) if current_target else 0
         ),
+        "current_month_elapsed_days": elapsed_days,
+        "current_month_total_days": total_days,
+        "current_month_estimated": estimated_amount,
+        "current_month_estimated_pct": estimated_pct,
         "customer_count": len(ranked),
         "product_count": len(products),
         "top5_pct_of_total": (top5_total / grand_total * 100) if grand_total else 0,

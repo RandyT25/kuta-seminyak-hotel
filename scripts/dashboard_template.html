@@ -142,6 +142,8 @@
   }
   .kpi-sub { font-size: 11px; color: var(--ink-2); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   .kpi-sub b { color: var(--ink); }
+  .kpi-est { font-size: 11px; color: var(--ink-2); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-top: -2px; }
+  .kpi-est b { color: var(--ink); font-weight: 700; }
   .kpi-delta { font-weight: 700; }
   .kpi-delta.up { color: var(--good); }
   .kpi-delta.down { color: var(--critical); }
@@ -755,11 +757,25 @@
     : currentMonthLabel;
   const avgPerAccount = DATA.customer_count ? DATA.grand_total / DATA.customer_count : 0;
 
+  const genDate = new Date(DATA.generated_at);
+  const totalDays = DATA.current_month_total_days
+    || new Date(genDate.getFullYear(), genDate.getMonth() + 1, 0).getDate()
+    || 30;
+  const elapsedDays = DATA.current_month_elapsed_days
+    || Math.max(1, Math.min(genDate.getDate() || 1, totalDays));
+  const estAmount = DATA.current_month_estimated != null
+    ? DATA.current_month_estimated
+    : (DATA.partial_month ? DATA.current_month_actual * (totalDays / elapsedDays) : DATA.current_month_actual);
+  const estPct = DATA.current_month_estimated_pct != null
+    ? DATA.current_month_estimated_pct
+    : (DATA.current_month_target ? (estAmount / DATA.current_month_target * 100) : 0);
+
   const kpis = [
     {
       label: "Revenue YTD",
       value: fmtIDR(DATA.grand_total, { short: true, decimals: 1 }),
       sub: `${monthShort(DATA.months[0])} – ${currentMonthLabel} · F&amp;B only`,
+      title: `Pre-tax revenue (DPP, without PPN) · excludes Balian (water/deposits)`,
       cls: "",
     },
     {
@@ -780,7 +796,12 @@
       label: `${currentMonthLabel} MTD`,
       value: fmtIDR(DATA.current_month_actual, { short: true, decimals: 1 }),
       sub: `${DATA.current_month_progress_pct.toFixed(0)}% of ${fmtIDR(DATA.current_month_target, { short: true, noPrefix: true })}`,
-      title: `${fmtIDR(DATA.current_month_actual, { short: true })} of ${fmtIDR(DATA.current_month_target, { short: true })} target · excludes Balian (water/deposits)`,
+      est: DATA.partial_month
+        ? `Est. <b>${fmtIDR(estAmount, { short: true, decimals: 1 })}</b> (${estPct.toFixed(0)}%)`
+        : '',
+      title: `${fmtIDR(DATA.current_month_actual, { short: true })} of ${fmtIDR(DATA.current_month_target, { short: true })} target`
+        + (DATA.partial_month ? ` · Est. full month ${fmtIDR(estAmount, { short: true, decimals: 1 })} (${estPct.toFixed(1)}% of target, day ${elapsedDays}/${totalDays})` : '')
+        + ` · pre-tax (DPP), excludes Balian`,
       cls: "kpi--warning",
     },
     {
@@ -807,6 +828,7 @@
       <div class="kpi-label">${k.label}</div>
       <div class="kpi-value">${k.value}</div>
       <div class="kpi-sub">${k.sub}</div>
+      ${k.est ? `<div class="kpi-est">${k.est}</div>` : ''}
     </div>
   `).join('');
 
@@ -960,7 +982,8 @@
         dot.setAttribute('class', i === partialIdx ? 'hover-dot partial' : 'hover-dot');
         dot.style.display = '';
         const mtdNote = i === partialIdx ? ' <span class="tooltip-mtd">(month to date)</span>' : '';
-        tooltip.innerHTML = `${months[i]}${mtdNote} &nbsp;<b>${fmtIDR(values[i])}</b>`;
+        const estNote = i === partialIdx ? ` &nbsp;·&nbsp; <span class="tooltip-mtd">Est. <b>${fmtIDR(estAmount, { short: true, decimals: 1 })}</b> (${estPct.toFixed(0)}%)</span>` : '';
+        tooltip.innerHTML = `${months[i]}${mtdNote} &nbsp;<b>${fmtIDR(values[i])}</b>${estNote}`;
         tooltip.style.left = e.clientX + 'px';
         tooltip.style.top = (e.clientY - 12) + 'px';
         tooltip.classList.add('show');
@@ -1068,7 +1091,9 @@
     const items = [];
 
     items.push({ day: 'MON', p: 'p1',
-      text: `Review this month's data — ${fmtIDR(DATA.current_month_actual, { short: true })} of ${fmtIDR(DATA.current_month_target, { short: true })} target so far (${DATA.current_month_progress_pct.toFixed(0)}%).` });
+      text: `Review this month's data — ${fmtIDR(DATA.current_month_actual, { short: true })} of ${fmtIDR(DATA.current_month_target, { short: true })} target so far (${DATA.current_month_progress_pct.toFixed(0)}%`
+        + (DATA.partial_month ? ` · est. ${fmtIDR(estAmount, { short: true, decimals: 1 })} / ${estPct.toFixed(0)}% at current pace` : '')
+        + `).` });
 
     if (DATA.at_risk.length > 0) {
       const first = DATA.at_risk[0];
